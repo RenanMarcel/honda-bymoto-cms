@@ -1,101 +1,173 @@
-# Payload Cloudflare Template
+# Honda Bymoto CMS
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/payloadcms/payload/tree/main/templates/with-cloudflare-d1)
+Sistema de gerenciamento de conteúdo para Honda Bymoto construído com Payload CMS 3.0 e Cloudflare Workers.
 
-**This can only be deployed on Paid Workers right now due to size limits.** This template comes configured with the bare minimum to get started on anything you need.
+## 🇧🇷 Idioma Padrão: Português Brasileiro
 
-## Quick start
+Todo o sistema está configurado em **português brasileiro**, incluindo:
 
-This template can be deployed directly to Cloudflare Workers by clicking the button to take you to the setup screen.
+- Interface de administração
+- Collections e campos
+- Mensagens e validações
+- Documentação do código
 
-From there you can connect your code to a git provider such Github or Gitlab, name your Workers, D1 Database and R2 Bucket as well as attach any additional environment variables or services you need.
+## 🚀 Início Rápido
 
-## Quick Start - local setup
+### Pré-requisitos
 
-To spin up this template locally, follow these steps:
+- Node.js 18+
+- pnpm
+- Conta Cloudflare
 
-### Clone
-
-After you click the `Deploy` button above, you'll want to have standalone copy of this repo on your machine. Cloudflare will connect your app to a git provider such as Github and you can access your code from there.
-
-### Local Development
-
-## How it works
-
-Out of the box, using [`Wrangler`](https://developers.cloudflare.com/workers/wrangler/) will automatically create local bindings for you to connect to the remote services and it can even create a local mock of the services you're using with Cloudflare.
-
-We've pre-configured Payload for you with the following:
-
-### Collections
-
-See the [Collections](https://payloadcms.com/docs/configuration/collections) docs for details on how to extend this functionality.
-
-- #### Users (Authentication)
-
-  Users are auth-enabled collections that have access to the admin panel.
-
-  For additional help, see the official [Auth Example](https://github.com/payloadcms/payload/tree/main/examples/auth) or the [Authentication](https://payloadcms.com/docs/authentication/overview#authentication-overview) docs.
-
-- #### Media
-
-  This is the uploads enabled collection.
-
-### Image Storage (R2)
-
-Images will be served from an R2 bucket which you can then further configure to use a CDN to serve for your frontend directly.
-
-### D1 Database
-
-The Worker will have direct access to a D1 SQLite database which Wrangler can connect locally to, just note that you won't have a connection string as you would typically with other providers.
-
-You can enable read replicas by adding `readReplicas: 'first-primary'` in the DB adapter and then enabling it on your D1 Cloudflare dashboard. Read more about this feature on [our docs](https://payloadcms.com/docs/database/sqlite#d1-read-replicas).
-
-## Working with Cloudflare
-
-Firstly, after installing dependencies locally you need to authenticate with Wrangler by running:
+### Configuração Local
 
 ```bash
+# Instalar dependências
+pnpm install
+
+# Fazer login no Cloudflare
 pnpm wrangler login
-```
 
-This will take you to Cloudflare to login and then you can use the Wrangler CLI locally for anything, use `pnpm wrangler help` to see all available options.
+# Iniciar servidor de desenvolvimento
+pnpm dev
+O admin estará disponível em: http://localhost:3000/admin
 
-Wrangler is pretty smart so it will automatically bind your services for local development just by running `pnpm dev`.
+📋 Estrutura do Projeto
+Collections
+Usuários (usuarios) - Autenticação e gerenciamento de usuários
+Mídia (midia) - Upload e armazenamento de arquivos no R2
+Endpoints da API
+GET /api/usuarios
+GET /api/midia
+Tradução pt-BR
+O sistema utiliza traduções customizadas em português brasileiro. Veja
+src/i18n/pt-BR.ts
+ para as traduções completas.
 
-## Deployments
+🗄️ Banco de Dados e Armazenamento
+D1 Database (SQLite)
+Banco de dados SQLite gerenciado pelo Cloudflare D1.
 
-When you're ready to deploy, first make sure you have created your migrations:
+R2 Storage
+Armazenamento de arquivos no Cloudflare R2 com integração automática.
 
-```bash
+📝 Comandos Úteis
+bash
+# Desenvolvimento
+pnpm dev
+
+# Build
+pnpm build
+
+# Deploy para produção
+pnpm deploy
+
+# Gerar tipos TypeScript
+pnpm payload generate:types
+
+# Criar migração
 pnpm payload migrate:create
+
+# Executar migrações
+pnpm payload migrate
+
+# Formatar código
+pnpm format
+
+# Lint
+pnpm lint
+🔧 Regras de Desenvolvimento
+Tradução Obrigatória
+TODO O CÓDIGO DEVE SER ESCRITO EM PORTUGUÊS BRASILEIRO
+
+Arquivos: PascalCase (Produtos.ts)
+Classes/Exports: PascalCase (Produtos)
+Slugs: kebab-case (produtos)
+Campos: camelCase (nomeProduto)
+Labels: Texto normal (Nome do Produto)
+Veja
+PLANNING.md
+ para mais detalhes sobre padrões de código e arquitetura.
+
+Convenções de Código
+typescript
+// ✅ CORRETO - Tudo em português
+export const Produtos: CollectionConfig = {
+    slug: 'produtos',
+    labels: {
+        singular: 'Produto',
+        plural: 'Produtos',
+    },
+    fields: [
+        {
+            name: 'nomeProduto',
+            label: 'Nome do Produto',
+            type: 'text',
+        },
+    ],
+}
+
+// ❌ ERRADO - Não use inglês
+export const Products: CollectionConfig = {
+    slug: 'products',
+    fields: [
+        {
+            name: 'productName',
+            label: 'Product Name',
+        },
+    ],
+}
+🚀 Deploy
+bash
+# 1. Criar migrações (se houver alterações no schema)
+pnpm payload migrate:create
+
+# 2. Deploy para produção
+pnpm deploy
+O comando deploy irá:
+
+Executar migrações pendentes
+Fazer build da aplicação
+Fazer deploy no Cloudflare Workers
+📚 Documentação
+PLANNING.md
+ - Arquitetura e padrões do projeto
+TASK.md
+ - Gerenciamento de tarefas
+DEBUG.md
+ - Registro de erros e soluções
+Payload CMS Docs
+Cloudflare Workers Docs
+⚠️ Observações Importantes
+Plano Pago do Workers: Necessário devido ao tamanho do bundle (limite de 3MB)
+GraphQL: Suporte limitado no Cloudflare Workers
+Sharp: Não disponível no Workers (crop e focalPoint desabilitados)
+🛠️ Stack Técnica
+CMS: Payload CMS 3.0
+Framework: Next.js 15
+Runtime: Cloudflare Workers
+Database: D1 (SQLite)
+Storage: R2
+Language: TypeScript
+Build: Vite
+📁 Estrutura de Pastas
+src/
+├── collections/        # Coleções do CMS
+│   ├── Usuarios.ts
+│   └── Midia.ts
+├── i18n/              # Traduções
+│   └── pt-BR.ts
+├── migrations/        # Migrações do banco
+└── payload.config.ts  # Configuração principal
+🌐 Variáveis de Ambiente
+env
+PAYLOAD_SECRET=sua-chave-secreta-aqui
+DATABASE_URI=cloudflare-d1
+CLOUDFLARE_ACCOUNT_ID=seu-account-id
+📞 Suporte
+Para dúvidas sobre:
+
+Payload CMS: Discord ou GitHub Discussions
+Cloudflare Workers: Documentação
+Desenvolvido com ❤️ para Honda Bymoto
 ```
-
-Then run the following command:
-
-```bash
-pnpm run deploy
-```
-
-This will spin up Wrangler in `production` mode, run any created migrations, build the app and then deploy the bundle up to Cloudflare.
-
-That's it! You can if you wish move these steps into your CI pipeline as well.
-
-## Enabling logs
-
-By default logs are not enabled for your API, we've made this decision because it does run against your quota so we've left it opt-in. But you can easily enable logs in one click in the Cloudflare panel, [see docs](https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs).
-
-## Known issues
-
-### GraphQL
-
-We are currently waiting on some issues with GraphQL to be [fixed upstream in Workers](https://github.com/cloudflare/workerd/issues/5175) so full support for GraphQL is not currently guaranteed when deployed.
-
-### Worker size limits
-
-We currently recommend deploying this template to the Paid Workers plan due to bundle [size limits](https://developers.cloudflare.com/workers/platform/limits/#worker-size) of 3mb. We're actively trying to reduce our bundle footprint over time to better meet this metric.
-
-This also applies to your own code, in the case of importing a lot of libraries you may find yourself limited by the bundle.
-
-## Questions
-
-If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).

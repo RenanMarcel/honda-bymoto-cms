@@ -1,0 +1,30 @@
+# Build output
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Cache
+.DS_Store
+
+# Generated files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Pagefind
+pagefind/
+
+# Outros arquivos
+outros-arquivos/

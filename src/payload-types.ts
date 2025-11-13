@@ -63,12 +63,12 @@ export type SupportedTimezones =
 
 export interface Config {
   auth: {
-    users: UserAuthOperations;
+    usuarios: UsuarioAuthOperations;
   };
   blocks: {};
   collections: {
-    users: User;
-    media: Media;
+    usuarios: Usuario;
+    midia: Midia;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -76,8 +76,8 @@ export interface Config {
   };
   collectionsJoins: {};
   collectionsSelect: {
-    users: UsersSelect<false> | UsersSelect<true>;
-    media: MediaSelect<false> | MediaSelect<true>;
+    usuarios: UsuariosSelect<false> | UsuariosSelect<true>;
+    midia: MidiaSelect<false> | MidiaSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -89,15 +89,15 @@ export interface Config {
   globals: {};
   globalsSelect: {};
   locale: null;
-  user: User & {
-    collection: 'users';
+  user: Usuario & {
+    collection: 'usuarios';
   };
   jobs: {
     tasks: unknown;
     workflows: unknown;
   };
 }
-export interface UserAuthOperations {
+export interface UsuarioAuthOperations {
   forgotPassword: {
     email: string;
     password: string;
@@ -117,10 +117,11 @@ export interface UserAuthOperations {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "users".
+ * via the `definition` "usuarios".
  */
-export interface User {
+export interface Usuario {
   id: number;
+  nome?: string | null;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -141,10 +142,13 @@ export interface User {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "media".
+ * via the `definition` "midia".
  */
-export interface Media {
+export interface Midia {
   id: number;
+  /**
+   * Descrição da imagem para acessibilidade
+   */
   alt: string;
   updatedAt: string;
   createdAt: string;
@@ -181,17 +185,17 @@ export interface PayloadLockedDocument {
   id: number;
   document?:
     | ({
-        relationTo: 'users';
-        value: number | User;
+        relationTo: 'usuarios';
+        value: number | Usuario;
       } | null)
     | ({
-        relationTo: 'media';
-        value: number | Media;
+        relationTo: 'midia';
+        value: number | Midia;
       } | null);
   globalSlug?: string | null;
   user: {
-    relationTo: 'users';
-    value: number | User;
+    relationTo: 'usuarios';
+    value: number | Usuario;
   };
   updatedAt: string;
   createdAt: string;
@@ -203,8 +207,8 @@ export interface PayloadLockedDocument {
 export interface PayloadPreference {
   id: number;
   user: {
-    relationTo: 'users';
-    value: number | User;
+    relationTo: 'usuarios';
+    value: number | Usuario;
   };
   key?: string | null;
   value?:
@@ -232,9 +236,10 @@ export interface PayloadMigration {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "users_select".
+ * via the `definition` "usuarios_select".
  */
-export interface UsersSelect<T extends boolean = true> {
+export interface UsuariosSelect<T extends boolean = true> {
+  nome?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;
@@ -254,9 +259,9 @@ export interface UsersSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "media_select".
+ * via the `definition` "midia_select".
  */
-export interface MediaSelect<T extends boolean = true> {
+export interface MidiaSelect<T extends boolean = true> {
   alt?: T;
   updatedAt?: T;
   createdAt?: T;
