@@ -2,7 +2,7 @@ import React from "react";
 import "./globals.css";
 
 export const metadata = {
-    title: "Honda Bymoto CMS",
+    title: "Honda By Moto CMS",
     description: "Sistema de gerenciamento de conteúdo da concessionária Honda By Moto.",
 };
 

@@ -21,7 +21,7 @@ Todo o sistema está configurado em **português brasileiro**, incluindo:
 
 ### Configuração Local
 
-```bash
+````bash
 # Instalar dependências
 pnpm install
 
@@ -164,10 +164,47 @@ env
 PAYLOAD_SECRET=sua-chave-secreta-aqui
 DATABASE_URI=cloudflare-d1
 CLOUDFLARE_ACCOUNT_ID=seu-account-id
-📞 Suporte
-Para dúvidas sobre:
+ 📞 Suporte
+ Para dúvidas sobre:
 
-Payload CMS: Discord ou GitHub Discussions
-Cloudflare Workers: Documentação
-Desenvolvido com ❤️ para Honda Bymoto
+ Payload CMS Docs
+ Cloudflare Workers Docs
+ Desenvolvido com ❤️ para Honda Bymoto
+
+ ## Exemplo de uso do componente de alerta no admin
+
+ O componente `AlertBox` pode ser usado como um campo de interface (`type: "ui"`) em qualquer collection do Payload para exibir mensagens informativas para o usuário administrador.
+
+ Exemplo de configuração de campo em uma collection:
+
+ ```ts
+ {
+     name: "alertaAjuda",
+     type: "ui",
+     admin: {
+         components: {
+             Field: "/components/AlertBox#AlertBox",
+         },
+     },
+ }
+````
+
+Exemplo de implementação do componente `AlertBox` usando o sistema de alertas da interface:
+
+```tsx
+import React from "react";
+import { CheckCircle2Icon } from "lucide-react";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+
+export const AlertBox: React.FC = () => {
+    return (
+        <div className="grid w-full max-w-sm items-start gap-4 rounded-2xl">
+            <Alert>
+                <CheckCircle2Icon />
+                <AlertTitle>Alterações salvas com sucesso</AlertTitle>
+                <AlertDescription>Este é um exemplo de alerta com ícone, título e descrição.</AlertDescription>
+            </Alert>
+        </div>
+    );
+};
 ```

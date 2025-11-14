@@ -113,8 +113,7 @@ const authentication: TraducoesParciais = {
     backToLogin: "Voltar ao login",
     beginCreateFirstUser: "Para começar, crie seu primeiro usuário",
     changePassword: "Alterar senha",
-    checkYourEmailForPasswordReset:
-        "Verifique seu e-mail para redefinir sua senha",
+    checkYourEmailForPasswordReset: "Verifique seu e-mail para redefinir sua senha",
     confirmGeneration: "Confirmar geração",
     confirmPassword: "Confirmar senha",
     createFirstUser: "Criar primeiro usuário",
@@ -133,8 +132,7 @@ const authentication: TraducoesParciais = {
     lockUntil: "Bloqueado até",
     logBackIn: "Entrar novamente",
     loggedIn: "Logado com sucesso",
-    loggedInChangePassword:
-        'Para alterar sua senha, vá para sua conta e selecione "Alterar senha"',
+    loggedInChangePassword: 'Para alterar sua senha, vá para sua conta e selecione "Alterar senha"',
     loggedOut: "Você foi desconectado",
     login: "Entrar",
     loginAttempts: "Tentativas de login",
@@ -164,8 +162,7 @@ const authentication: TraducoesParciais = {
     verifiedSuccessfully: "Verificado com sucesso",
     verify: "Verificar",
     verifyUser: "Verificar usuário",
-    youAreInactive:
-        "Você está inativo há muito tempo e será desconectado automaticamente em breve",
+    youAreInactive: "Você está inativo há muito tempo e será desconectado automaticamente em breve",
     youAreReceivingResetPassword:
         "Você está recebendo este e-mail porque você (ou alguém) solicitou a redefinição da senha da sua conta",
 };
@@ -175,8 +172,7 @@ const error: TraducoesParciais = {
     autosaving: "Erro ao salvar automaticamente",
     correctInvalidFields: "Corrija os campos inválidos",
     deletingFile: "Erro ao excluir arquivo",
-    deletingTitle:
-        "Erro ao excluir {{title}}. Por favor, verifique sua conexão e tente novamente",
+    deletingTitle: "Erro ao excluir {{title}}. Por favor, verifique sua conexão e tente novamente",
     emailOrPasswordIncorrect: "E-mail ou senha incorretos",
     followingFieldsInvalid: "Os seguintes campos são inválidos:",
     incorrectCollection: "Coleção incorreta",
@@ -195,15 +191,12 @@ const error: TraducoesParciais = {
     tokenInvalidOrExpired: "Token inválido ou expirado",
     unableToDeleteCount: "Não foi possível excluir {{count}} {{label}}",
     unableToUpdateCount: "Não foi possível atualizar {{count}} {{label}}",
-    unauthorized:
-        "Não autorizado, você deve estar logado para executar esta ação",
+    unauthorized: "Não autorizado, você deve estar logado para executar esta ação",
     unknown: "Ocorreu um erro desconhecido",
     unPublishingDocument: "Erro ao despublicar documento",
     unspecific: "Ocorreu um erro",
-    userEmailAlreadyRegistered:
-        "Um usuário com o e-mail fornecido já está registrado",
-    userLocked:
-        "Este usuário está bloqueado devido a muitas tentativas de login fracassadas",
+    userEmailAlreadyRegistered: "Um usuário com o e-mail fornecido já está registrado",
+    userLocked: "Este usuário está bloqueado devido a muitas tentativas de login fracassadas",
     valueMustBeUnique: "Valor deve ser único",
     verificationTokenInvalid: "Token de verificação inválido",
 };
@@ -396,7 +389,7 @@ export const ptBR = {
             ...version,
         },
         custom: {
-            welcomeMessage: "Bem-vindo ao Honda Bymoto CMS",
+            welcomeMessage: "Bem-vindo ao Honda By Moto CMS",
         },
     },
 };

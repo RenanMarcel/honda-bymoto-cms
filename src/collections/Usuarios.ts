@@ -21,14 +21,5 @@ export const Usuarios: CollectionConfig = {
             label: "Nome",
             type: "text",
         },
-        {
-            name: "alertBox",
-            type: "ui",
-            admin: {
-                components: {
-                    Field: "/components/AlertBox#AlertBox",
-                },
-            },
-        },
     ],
 };

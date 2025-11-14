@@ -10,7 +10,7 @@ export const Icon = () => {
         <div className="flex h-full w-full items-center justify-center">
             <Image
                 src="/logos/concessionaria-logo.svg"
-                alt="Honda Bymoto"
+                alt="Honda By Moto"
                 width={160}
                 height={48}
                 priority
