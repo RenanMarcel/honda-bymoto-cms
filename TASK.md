@@ -31,6 +31,10 @@
 - [x] Criar coleção de Banners da página inicial
 - [x] Criar documentação da API de Banners (BANNERS.md)
 
+### 2025-11-14
+
+- [x] Criar coleção Perfis de Acesso (perfis-acesso) para gestão de grupos e permissões
+
 ## 📋 Pendentes
 
 ### Documentação

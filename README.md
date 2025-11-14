@@ -37,6 +37,7 @@ Collections
 Usuários (usuarios) - Autenticação e gerenciamento de usuários
 Mídia (midia) - Upload e armazenamento de arquivos no R2
 Banners Página Inicial (banners-pagina-inicial) - Banners da página inicial do site
+Perfis de Acesso (perfis-acesso) - Grupos de usuários e níveis de acesso por coleção/menus
 Endpoints da API
 GET /api/usuarios
 GET /api/midia

@@ -68,6 +68,7 @@ export interface Config {
   blocks: {};
   collections: {
     usuarios: Usuario;
+    'perfis-acesso': PerfisAcesso;
     midia: Midia;
     'banners-pagina-inicial': BannersPaginaInicial;
     'payload-kv': PayloadKv;
@@ -78,6 +79,7 @@ export interface Config {
   collectionsJoins: {};
   collectionsSelect: {
     usuarios: UsuariosSelect<false> | UsuariosSelect<true>;
+    'perfis-acesso': PerfisAcessoSelect<false> | PerfisAcessoSelect<true>;
     midia: MidiaSelect<false> | MidiaSelect<true>;
     'banners-pagina-inicial': BannersPaginaInicialSelect<false> | BannersPaginaInicialSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
@@ -124,6 +126,10 @@ export interface UsuarioAuthOperations {
 export interface Usuario {
   id: number;
   nome?: string | null;
+  /**
+   * Define o grupo de permissões aplicado ao usuário
+   */
+  perfilAcesso?: (number | null) | PerfisAcesso;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -141,6 +147,42 @@ export interface Usuario {
       }[]
     | null;
   password?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "perfis-acesso".
+ */
+export interface PerfisAcesso {
+  id: number;
+  nome: string;
+  descricao?: string | null;
+  /**
+   * Quanto menor o número, maior o nível de acesso
+   */
+  nivelHierarquia: number;
+  permissoesColecoes?:
+    | {
+        colecao: 'usuarios' | 'midia' | 'banners-pagina-inicial';
+        podeListar?: boolean | null;
+        podeCriar?: boolean | null;
+        podeEditar?: boolean | null;
+        podeExcluir?: boolean | null;
+        id?: string | null;
+      }[]
+    | null;
+  permissoesMenus?:
+    | {
+        /**
+         * Identificador do menu (slug ou chave interna)
+         */
+        menu: string;
+        podeAcessar?: boolean | null;
+        id?: string | null;
+      }[]
+    | null;
+  ativo?: boolean | null;
+  updatedAt: string;
+  createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -235,6 +277,10 @@ export interface PayloadLockedDocument {
         value: number | Usuario;
       } | null)
     | ({
+        relationTo: 'perfis-acesso';
+        value: number | PerfisAcesso;
+      } | null)
+    | ({
         relationTo: 'midia';
         value: number | Midia;
       } | null)
@@ -290,6 +336,7 @@ export interface PayloadMigration {
  */
 export interface UsuariosSelect<T extends boolean = true> {
   nome?: T;
+  perfilAcesso?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;
@@ -306,6 +353,35 @@ export interface UsuariosSelect<T extends boolean = true> {
         createdAt?: T;
         expiresAt?: T;
       };
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "perfis-acesso_select".
+ */
+export interface PerfisAcessoSelect<T extends boolean = true> {
+  nome?: T;
+  descricao?: T;
+  nivelHierarquia?: T;
+  permissoesColecoes?:
+    | T
+    | {
+        colecao?: T;
+        podeListar?: T;
+        podeCriar?: T;
+        podeEditar?: T;
+        podeExcluir?: T;
+        id?: T;
+      };
+  permissoesMenus?:
+    | T
+    | {
+        menu?: T;
+        podeAcessar?: T;
+        id?: T;
+      };
+  ativo?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

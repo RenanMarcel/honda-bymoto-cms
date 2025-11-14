@@ -8,6 +8,7 @@ export const Usuarios: CollectionConfig = {
     },
     admin: {
         useAsTitle: "email",
+        group: "Administrativo",
     },
     auth: {
         tokenExpiration: 7200,
@@ -20,6 +21,15 @@ export const Usuarios: CollectionConfig = {
             name: "nome",
             label: "Nome",
             type: "text",
+        },
+        {
+            name: "perfilAcesso",
+            label: "Perfil de Acesso",
+            type: "relationship",
+            relationTo: "perfis-acesso",
+            admin: {
+                description: "Define o grupo de permissões aplicado ao usuário",
+            },
         },
     ],
 };

@@ -12,6 +12,7 @@ import { ptBR } from "./i18n/pt-BR";
 import { Usuarios } from "./collections/Usuarios";
 import { Midia } from "./collections/Midia";
 import { BannersPaginaInicial } from "./collections/BannersPaginaInicial";
+import { PerfisAcesso } from "./collections/PerfisAcesso";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -38,7 +39,7 @@ export default buildConfig({
             titleSuffix: "- Honda By Moto CMS",
         },
     },
-    collections: [Usuarios, Midia, BannersPaginaInicial],
+    collections: [Usuarios, PerfisAcesso, Midia, BannersPaginaInicial],
     i18n: {
         supportedLanguages: {
             pt: ptBR as any, // Português (Brasil) - Padrão (Tradução customizada)
