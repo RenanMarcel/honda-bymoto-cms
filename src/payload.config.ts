@@ -11,6 +11,7 @@ import { en } from "@payloadcms/translations/languages/en";
 import { ptBR } from "./i18n/pt-BR";
 import { Usuarios } from "./collections/Usuarios";
 import { Midia } from "./collections/Midia";
+import { BannersPaginaInicial } from "./collections/BannersPaginaInicial";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -24,6 +25,7 @@ const cloudflare =
 export default buildConfig({
     admin: {
         user: Usuarios.slug,
+        dateFormat: "dd/MM/yyyy HH:mm",
         importMap: {
             baseDir: path.resolve(dirname),
         },
@@ -36,7 +38,7 @@ export default buildConfig({
             titleSuffix: "- Honda By Moto CMS",
         },
     },
-    collections: [Usuarios, Midia],
+    collections: [Usuarios, Midia, BannersPaginaInicial],
     i18n: {
         supportedLanguages: {
             pt: ptBR as any, // Português (Brasil) - Padrão (Tradução customizada)

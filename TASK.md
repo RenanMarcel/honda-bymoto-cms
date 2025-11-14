@@ -26,6 +26,11 @@
 - [x] Organizar logo SVG na pasta public/images
 - [x] Atualizar componentes Logo e Icon para usar SVG
 
+### 2025-11-13
+
+- [x] Criar coleção de Banners da página inicial
+- [x] Criar documentação da API de Banners (BANNERS.md)
+
 ## 📋 Pendentes
 
 ### Documentação

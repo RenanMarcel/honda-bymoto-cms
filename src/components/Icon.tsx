@@ -1,21 +1,14 @@
 import React from "react";
-import Image from "next/image";
+import { House } from "lucide-react";
 
 /**
  * Ícone customizado para o admin do Payload CMS
  * Exibido na aba do navegador e em outros locais
  */
-export const Icon = () => {
+export const Icon: React.FC = () => {
     return (
         <div className="flex h-full w-full items-center justify-center">
-            <Image
-                src="/logos/concessionaria-logo.svg"
-                alt="Honda By Moto"
-                width={160}
-                height={48}
-                priority
-                className="h-auto w-full max-w-[160px]"
-            />
+            <House className="h-6 w-6 text-[#ED1C2F]" />
         </div>
     );
 };

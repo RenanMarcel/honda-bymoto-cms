@@ -69,6 +69,7 @@ export interface Config {
   collections: {
     usuarios: Usuario;
     midia: Midia;
+    'banners-pagina-inicial': BannersPaginaInicial;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -78,6 +79,7 @@ export interface Config {
   collectionsSelect: {
     usuarios: UsuariosSelect<false> | UsuariosSelect<true>;
     midia: MidiaSelect<false> | MidiaSelect<true>;
+    'banners-pagina-inicial': BannersPaginaInicialSelect<false> | BannersPaginaInicialSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -162,6 +164,50 @@ export interface Midia {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "banners-pagina-inicial".
+ */
+export interface BannersPaginaInicial {
+  id: number;
+  /**
+   * Descrição interna para identificação (não exibido no site)
+   */
+  descricao?: string | null;
+  titulo?: string | null;
+  subtitulo?: string | null;
+  /**
+   * Link para onde o banner deve direcionar ao ser clicado
+   */
+  bannerUrl?: string | null;
+  /**
+   * Imagem principal para desktop (1920x800 recomendado)
+   */
+  imagemDesktop: number | Midia;
+  /**
+   * Imagem específica para dispositivos móveis (780x840 recomendado)
+   */
+  imagemMobile?: (number | null) | Midia;
+  /**
+   * Data a partir da qual o banner deve ser exibido no site
+   */
+  dataValidadeInicial?: string | null;
+  /**
+   * Após essa data, o banner será ocultado do site
+   */
+  dataValidadeFinal?: string | null;
+  textoLegal?: string | null;
+  /**
+   * Define a ordem de exibição do banner; números menores aparecem primeiro
+   */
+  ordem?: number | null;
+  /**
+   * Desmarque para ocultar o banner do site
+   */
+  ativo?: boolean | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -191,6 +237,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'midia';
         value: number | Midia;
+      } | null)
+    | ({
+        relationTo: 'banners-pagina-inicial';
+        value: number | BannersPaginaInicial;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -272,6 +322,25 @@ export interface MidiaSelect<T extends boolean = true> {
   filesize?: T;
   width?: T;
   height?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "banners-pagina-inicial_select".
+ */
+export interface BannersPaginaInicialSelect<T extends boolean = true> {
+  descricao?: T;
+  titulo?: T;
+  subtitulo?: T;
+  bannerUrl?: T;
+  imagemDesktop?: T;
+  imagemMobile?: T;
+  dataValidadeInicial?: T;
+  dataValidadeFinal?: T;
+  textoLegal?: T;
+  ordem?: T;
+  ativo?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

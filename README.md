@@ -36,9 +36,11 @@ O admin estará disponível em: http://localhost:3000/admin
 Collections
 Usuários (usuarios) - Autenticação e gerenciamento de usuários
 Mídia (midia) - Upload e armazenamento de arquivos no R2
+Banners Página Inicial (banners-pagina-inicial) - Banners da página inicial do site
 Endpoints da API
 GET /api/usuarios
 GET /api/midia
+GET /api/banners-pagina-inicial
 Tradução pt-BR
 O sistema utiliza traduções customizadas em português brasileiro. Veja
 src/i18n/pt-BR.ts
