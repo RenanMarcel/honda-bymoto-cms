@@ -40,6 +40,10 @@
 - [x] Aplicar validações em todos os campos do global Dados Institucionais
 - [x] Customizar logo da página de login do admin para usar logo da concessionária
 - [x] Criar documentação completa da API de Dados Institucionais (DADOS-INSTITUCIONAIS.md)
+- [x] Criar global Parâmetros (parametros) com configurações do site
+- [x] Organizar campos em abas por categoria (Funcionalidades, SEO, Formulários, Cards, etc)
+- [x] Implementar dropdowns para valores fixos com labels tratadas
+- [x] Criar documentação completa da API de Parâmetros (PARAMETROS.md)
 
 ## 📋 Pendentes
 

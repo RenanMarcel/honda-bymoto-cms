@@ -41,12 +41,14 @@ Perfis de Acesso (perfis-acesso) - Grupos de usuários e níveis de acesso por c
 
 Globals
 Dados Institucionais (dados-institucionais) - Informações da empresa e concessionárias
+Parâmetros (parametros) - Configurações e parâmetros globais do site
 
 Endpoints da API
 GET /api/usuarios
 GET /api/midia
 GET /api/banners-pagina-inicial
 GET /api/globals/dados-institucionais
+GET /api/globals/parametros
 Tradução pt-BR
 O sistema utiliza traduções customizadas em português brasileiro. Veja
 src/i18n/pt-BR.ts
@@ -187,6 +189,7 @@ Fazer deploy no Cloudflare Workers
 
 - **[BANNERS.md](./BANNERS.md)** - API de Banners da Página Inicial
 - **[DADOS-INSTITUCIONAIS.md](./DADOS-INSTITUCIONAIS.md)** - API de Dados Institucionais
+- **[PARAMETROS.md](./PARAMETROS.md)** - API de Parâmetros do Site
 
 ### Links Externos
 

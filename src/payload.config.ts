@@ -14,6 +14,7 @@ import { Midia } from "./collections/Midia";
 import { BannersPaginaInicial } from "./collections/BannersPaginaInicial";
 import { PerfisAcesso } from "./collections/PerfisAcesso";
 import { DadosInstitucionais } from "./globals/DadosInstitucionais";
+import { Parametros } from "./globals/Parametros";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -42,7 +43,7 @@ export default buildConfig({
         },
     },
     collections: [Usuarios, PerfisAcesso, Midia, BannersPaginaInicial],
-    globals: [DadosInstitucionais],
+    globals: [DadosInstitucionais, Parametros],
     i18n: {
         supportedLanguages: {
             pt: ptBR as any, // Português (Brasil) - Padrão (Tradução customizada)

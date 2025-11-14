@@ -92,9 +92,11 @@ export interface Config {
   };
   globals: {
     'dados-institucionais': DadosInstitucionai;
+    parametros: Parametro;
   };
   globalsSelect: {
     'dados-institucionais': DadosInstitucionaisSelect<false> | DadosInstitucionaisSelect<true>;
+    parametros: ParametrosSelect<false> | ParametrosSelect<true>;
   };
   locale: null;
   user: Usuario & {
@@ -623,6 +625,134 @@ export interface DadosInstitucionai {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "parametros".
+ */
+export interface Parametro {
+  id: number;
+  /**
+   * Se desabilitado, oculta toda a seção de motos seminovas do site
+   */
+  habilitarSeminovos: boolean;
+  /**
+   * Exibe o botão TENHO INTERESSE no header (versão desktop)
+   */
+  exibirTenhoInteresseHeader: boolean;
+  /**
+   * Controla a exibição de preços nos cards de motos novas (Grid/Carousel)
+   */
+  exibirPrecoMotosNovas: boolean;
+  /**
+   * Exibe cards separados por modelo/variação (similar ao grid de ofertas)
+   */
+  exibirModelosSeparadosMotosNovasGrid: boolean;
+  /**
+   * Exibe cards separados por modelo/variação (similar ao grid de ofertas)
+   */
+  exibirModelosSeparadosConsorcioGrid: boolean;
+  /**
+   * Se ativo, usa o valor da parcela com seguro para o menor valor exibido no consórcio
+   */
+  utilizarParcelasConsorcioComSeguro: boolean;
+  /**
+   * Se ativo, carrega as tags do Google Tag Manager no site
+   */
+  habilitarTagsGTM: boolean;
+  /**
+   * Se ativo, o card de compartilhamento resume as informações. Se desativado, exibe listas completas
+   */
+  seminovasCardCompartilhadoResumirInformacoes: boolean;
+  /**
+   * Título padrão usado no <title> e meta tags (fallback global)
+   */
+  tituloPadraoSite: string;
+  /**
+   * Meta description padrão usada no layout (fallback global)
+   */
+  descricaoPadraoSite: string;
+  /**
+   * Altura do logo da concessionária no header (ex.: 68px, 4rem)
+   */
+  alturaLogoConcessionariaHeader: string;
+  /**
+   * Altura do logo da concessionária no footer (ex.: 68px, 4rem)
+   */
+  alturaLogoConcessionariaFooter: string;
+  /**
+   * Se ativo, usa a logo da concessionária no header mobile. Se desativado, usa texto com nome fantasia
+   */
+  usarLogoConcessionariaHeaderMobile: boolean;
+  /**
+   * Define qual tipo de formulário será usado para leads de motos novas
+   */
+  motosNovasTipoForm: 'LeadsConnect' | 'WebToLead';
+  /**
+   * Define qual tipo de formulário será usado para Test Ride
+   */
+  testRideTipoForm: 'Email' | 'LeadsConnect';
+  /**
+   * Se ativo, os formulários WebToLead usarão o ambiente de teste da Salesforce
+   */
+  webToLeadFormsTest: boolean;
+  /**
+   * Se ativo, o WhatsApp flutuante exibe menu expansível com links separados por concessionária
+   */
+  separarWhatsAppLeadsConnectPorFilial: boolean;
+  /**
+   * Se ativo, oculta o botão do WhatsApp no header mobile, exibindo apenas o botão de telefone
+   */
+  ocultarWhatsappHeaderMobile: boolean;
+  /**
+   * Texto exibido no botão principal dos cards de motos novas
+   */
+  cardMotosNovasTextoBotao: string;
+  /**
+   * Controla quando o botão fica sempre visível (sem hover)
+   */
+  cardMotosNovasExibirBotaoFixo: 'nenhum' | 'xs' | 'todos';
+  /**
+   * Texto exibido no botão principal dos cards de motos seminovas
+   */
+  cardMotosSeminovasTextoBotao: string;
+  /**
+   * Controla quando o botão fica sempre visível (sem hover)
+   */
+  cardMotosSeminovasExibirBotaoFixo: 'nenhum' | 'xs' | 'todos';
+  /**
+   * Texto exibido no botão principal dos cards de ofertas
+   */
+  cardOfertasTextoBotao: string;
+  /**
+   * Controla quando o botão fica sempre visível (sem hover)
+   */
+  cardOfertasExibirBotaoFixo: 'nenhum' | 'xs' | 'todos';
+  /**
+   * Texto exibido no botão principal dos cards de consórcio
+   */
+  cardConsorcioTextoBotao: string;
+  /**
+   * Controla quando o botão fica sempre visível (sem hover)
+   */
+  cardConsorcioExibirBotaoFixo: 'nenhum' | 'xs' | 'todos';
+  /**
+   * Texto exibido no botão principal dos cards de serviços
+   */
+  cardServicosTextoBotao: string;
+  /**
+   * Controla quando o botão fica sempre visível (sem hover)
+   */
+  cardServicosExibirBotaoFixo: 'nenhum' | 'xs' | 'todos';
+  /**
+   * Ajuste a ordem arrastando as seções. As seções aparecerão nesta ordem após o banner principal
+   */
+  secoesHomeOrdem: {
+    secao: 'motos-novas' | 'ofertas' | 'consorcio' | 'test-ride' | 'motos-seminovas' | 'servicos';
+    id?: string | null;
+  }[];
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "dados-institucionais_select".
  */
 export interface DadosInstitucionaisSelect<T extends boolean = true> {
@@ -704,6 +834,49 @@ export interface DadosInstitucionaisSelect<T extends boolean = true> {
               linkedin?: T;
             };
         matriz?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "parametros_select".
+ */
+export interface ParametrosSelect<T extends boolean = true> {
+  habilitarSeminovos?: T;
+  exibirTenhoInteresseHeader?: T;
+  exibirPrecoMotosNovas?: T;
+  exibirModelosSeparadosMotosNovasGrid?: T;
+  exibirModelosSeparadosConsorcioGrid?: T;
+  utilizarParcelasConsorcioComSeguro?: T;
+  habilitarTagsGTM?: T;
+  seminovasCardCompartilhadoResumirInformacoes?: T;
+  tituloPadraoSite?: T;
+  descricaoPadraoSite?: T;
+  alturaLogoConcessionariaHeader?: T;
+  alturaLogoConcessionariaFooter?: T;
+  usarLogoConcessionariaHeaderMobile?: T;
+  motosNovasTipoForm?: T;
+  testRideTipoForm?: T;
+  webToLeadFormsTest?: T;
+  separarWhatsAppLeadsConnectPorFilial?: T;
+  ocultarWhatsappHeaderMobile?: T;
+  cardMotosNovasTextoBotao?: T;
+  cardMotosNovasExibirBotaoFixo?: T;
+  cardMotosSeminovasTextoBotao?: T;
+  cardMotosSeminovasExibirBotaoFixo?: T;
+  cardOfertasTextoBotao?: T;
+  cardOfertasExibirBotaoFixo?: T;
+  cardConsorcioTextoBotao?: T;
+  cardConsorcioExibirBotaoFixo?: T;
+  cardServicosTextoBotao?: T;
+  cardServicosExibirBotaoFixo?: T;
+  secoesHomeOrdem?:
+    | T
+    | {
+        secao?: T;
         id?: T;
       };
   updatedAt?: T;
