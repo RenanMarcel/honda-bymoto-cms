@@ -13,6 +13,7 @@ import { Usuarios } from "./collections/Usuarios";
 import { Midia } from "./collections/Midia";
 import { BannersPaginaInicial } from "./collections/BannersPaginaInicial";
 import { PerfisAcesso } from "./collections/PerfisAcesso";
+import { DadosInstitucionais } from "./globals/DadosInstitucionais";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -33,6 +34,7 @@ export default buildConfig({
         components: {
             graphics: {
                 Icon: "/components/Icon#Icon",
+                Logo: "/components/LoginLogo#LoginLogo",
             },
         },
         meta: {
@@ -40,6 +42,7 @@ export default buildConfig({
         },
     },
     collections: [Usuarios, PerfisAcesso, Midia, BannersPaginaInicial],
+    globals: [DadosInstitucionais],
     i18n: {
         supportedLanguages: {
             pt: ptBR as any, // Português (Brasil) - Padrão (Tradução customizada)

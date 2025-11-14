@@ -90,8 +90,12 @@ export interface Config {
   db: {
     defaultIDType: number;
   };
-  globals: {};
-  globalsSelect: {};
+  globals: {
+    'dados-institucionais': DadosInstitucionai;
+  };
+  globalsSelect: {
+    'dados-institucionais': DadosInstitucionaisSelect<false> | DadosInstitucionaisSelect<true>;
+  };
   locale: null;
   user: Usuario & {
     collection: 'usuarios';
@@ -457,6 +461,254 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   batch?: T;
   updatedAt?: T;
   createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "dados-institucionais".
+ */
+export interface DadosInstitucionai {
+  id: number;
+  nome: string;
+  nomeFantasia: string;
+  /**
+   * CNPJ da empresa (será formatado automaticamente)
+   */
+  cnpj: string;
+  /**
+   * URL completa do site (ex.: https://exemplo.com)
+   */
+  siteUrl: string;
+  logoConcessionaria: number | Midia;
+  logoConcessionariaBranca: number | Midia;
+  logoConcessionariaPreta: number | Midia;
+  /**
+   * Google Tag Manager Container ID (ex.: GTM-XXXXXXX)
+   */
+  gtmId?: string | null;
+  /**
+   * Google Analytics 4 Measurement ID (ex.: G-XXXXXXXXXX)
+   */
+  ga4Id?: string | null;
+  concessionarias?:
+    | {
+        nome: string;
+        endereco: {
+          /**
+           * CEP do endereço (será formatado automaticamente)
+           */
+          cep: string;
+          rua: string;
+          numero: string;
+          bairro: string;
+          cidade: string;
+          estado: string;
+        };
+        /**
+         * Ex.: https://maps.google.com/maps?q=moto%20e%20cia%20jardim%20inga&t=m&z=12&output=embed&iwloc=near
+         */
+        googleMapUrl: string;
+        telefones?:
+          | {
+              /**
+               * Ex.: Telefone, Fixo, WhatsApp
+               */
+              rotulo: string;
+              /**
+               * Código internacional (ex.: 55 para Brasil)
+               */
+              codigoPais: string;
+              /**
+               * Digite o número com DDD. Será formatado automaticamente (ex.: (11) 98765-4321)
+               */
+              numero: string;
+              temWhatsapp?: boolean | null;
+              id?: string | null;
+            }[]
+          | null;
+        emails: {
+          emailContato: string;
+          emailRH?: string | null;
+          emailVendas?: string | null;
+          emailSeminovas?: string | null;
+          emailTestRide?: string | null;
+        };
+        horarios?:
+          | {
+              /**
+               * Ex.: Segunda a Sexta
+               */
+              dias: string;
+              /**
+               * Ex.: 08:00 - 18:00
+               */
+              horario: string;
+              id?: string | null;
+            }[]
+          | null;
+        leadsConnectMyHonda: {
+          myHondaDealerCode: number;
+          /**
+           * Usado no botão flutuante de WhatsApp em todo o site (multi-concessionária)
+           */
+          whatsappLeadsConnectUrl: string;
+          /**
+           * Usado nos formulários da página de consórcio (MyHonda)
+           */
+          leadsConnectFormularioCompletoUrl: string;
+          /**
+           * Usado nos formulários da página de motos novas (vendas)
+           */
+          leadsConnectVendasUrl: string;
+          /**
+           * Usado nos formulários da página de test ride (agendamento de test drive)
+           */
+          leadsConnectTestRideUrl: string;
+          /**
+           * Usado nos formulários da página de seguros
+           */
+          leadsConnectSegurosUrl: string;
+          /**
+           * Usado nos formulários e botões de agendamento de serviços (revisão, manutenção)
+           */
+          agendamentoDigitalHondaUrl: string;
+          /**
+           * Usado nos botões e links da página de peças genuínas Honda
+           */
+          pecasHondaUrl: string;
+        };
+        /**
+         * Adicione fotos da concessionária para exibição no site
+         */
+        fotos?:
+          | {
+              imagem: number | Midia;
+              /**
+               * Marque apenas uma foto como principal para destaque
+               */
+              fotoPrincipal?: boolean | null;
+              /**
+               * Ordem de exibição (números menores aparecem primeiro)
+               */
+              ordem?: number | null;
+              id?: string | null;
+            }[]
+          | null;
+        redesSociais?: {
+          /**
+           * Ex.: https://instagram.com/hondabymoto
+           */
+          instagram?: string | null;
+          /**
+           * Ex.: https://facebook.com/hondabymoto
+           */
+          facebook?: string | null;
+          /**
+           * Ex.: https://youtube.com/@hondabymoto
+           */
+          youtube?: string | null;
+          /**
+           * Ex.: https://linkedin.com/company/hondabymoto
+           */
+          linkedin?: string | null;
+        };
+        /**
+         * Marque se esta é a concessionária matriz
+         */
+        matriz?: boolean | null;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "dados-institucionais_select".
+ */
+export interface DadosInstitucionaisSelect<T extends boolean = true> {
+  nome?: T;
+  nomeFantasia?: T;
+  cnpj?: T;
+  siteUrl?: T;
+  logoConcessionaria?: T;
+  logoConcessionariaBranca?: T;
+  logoConcessionariaPreta?: T;
+  gtmId?: T;
+  ga4Id?: T;
+  concessionarias?:
+    | T
+    | {
+        nome?: T;
+        endereco?:
+          | T
+          | {
+              cep?: T;
+              rua?: T;
+              numero?: T;
+              bairro?: T;
+              cidade?: T;
+              estado?: T;
+            };
+        googleMapUrl?: T;
+        telefones?:
+          | T
+          | {
+              rotulo?: T;
+              codigoPais?: T;
+              numero?: T;
+              temWhatsapp?: T;
+              id?: T;
+            };
+        emails?:
+          | T
+          | {
+              emailContato?: T;
+              emailRH?: T;
+              emailVendas?: T;
+              emailSeminovas?: T;
+              emailTestRide?: T;
+            };
+        horarios?:
+          | T
+          | {
+              dias?: T;
+              horario?: T;
+              id?: T;
+            };
+        leadsConnectMyHonda?:
+          | T
+          | {
+              myHondaDealerCode?: T;
+              whatsappLeadsConnectUrl?: T;
+              leadsConnectFormularioCompletoUrl?: T;
+              leadsConnectVendasUrl?: T;
+              leadsConnectTestRideUrl?: T;
+              leadsConnectSegurosUrl?: T;
+              agendamentoDigitalHondaUrl?: T;
+              pecasHondaUrl?: T;
+            };
+        fotos?:
+          | T
+          | {
+              imagem?: T;
+              fotoPrincipal?: T;
+              ordem?: T;
+              id?: T;
+            };
+        redesSociais?:
+          | T
+          | {
+              instagram?: T;
+              facebook?: T;
+              youtube?: T;
+              linkedin?: T;
+            };
+        matriz?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

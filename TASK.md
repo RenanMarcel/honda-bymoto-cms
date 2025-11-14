@@ -34,6 +34,12 @@
 ### 2025-11-14
 
 - [x] Criar coleção Perfis de Acesso (perfis-acesso) para gestão de grupos e permissões
+- [x] Criar global Dados Institucionais (dados-institucionais) com informações da empresa e concessionárias
+- [x] Criar biblioteca reutilizável de validações (src/lib/validations.ts)
+- [x] Implementar validações e formatações para CNPJ, CEP, telefone, URLs e redes sociais
+- [x] Aplicar validações em todos os campos do global Dados Institucionais
+- [x] Customizar logo da página de login do admin para usar logo da concessionária
+- [x] Criar documentação completa da API de Dados Institucionais (DADOS-INSTITUCIONAIS.md)
 
 ## 📋 Pendentes
 

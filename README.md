@@ -38,14 +38,57 @@ Usuários (usuarios) - Autenticação e gerenciamento de usuários
 Mídia (midia) - Upload e armazenamento de arquivos no R2
 Banners Página Inicial (banners-pagina-inicial) - Banners da página inicial do site
 Perfis de Acesso (perfis-acesso) - Grupos de usuários e níveis de acesso por coleção/menus
+
+Globals
+Dados Institucionais (dados-institucionais) - Informações da empresa e concessionárias
+
 Endpoints da API
 GET /api/usuarios
 GET /api/midia
 GET /api/banners-pagina-inicial
+GET /api/globals/dados-institucionais
 Tradução pt-BR
 O sistema utiliza traduções customizadas em português brasileiro. Veja
 src/i18n/pt-BR.ts
  para as traduções completas.
+
+## 🛡️ Biblioteca de Validações
+
+O projeto inclui uma biblioteca reutilizável de validações em `src/lib/validations.ts` com funções para:
+
+### Validadores Disponíveis
+
+- **`validateCNPJ(value)`** - Valida CNPJ brasileiro com verificação de dígitos
+- **`validateCEP(value)`** - Valida CEP brasileiro (8 dígitos)
+- **`validateURL(required)`** - Valida URLs com protocolo http/https
+- **`validateCountryCode(value)`** - Valida código de país (1-3 dígitos)
+- **`validateBrazilianPhone(value)`** - Valida telefone brasileiro com DDD
+- **`validateEmail(required)`** - Validação adicional de e-mail
+- **`validatePositiveInteger(required)`** - Valida números inteiros positivos
+- **`validateSocialMediaURL(platform)`** - Valida URLs de redes sociais específicas
+- **`validateNotEmpty(fieldName)`** - Valida campos não vazios
+
+### Formatadores Disponíveis
+
+- **`formatCNPJ(value)`** - Formata CNPJ: `12.345.678/0001-90`
+- **`formatCEP(value)`** - Formata CEP: `12345-678`
+- **`formatBrazilianPhone(value)`** - Formata telefone: `(11) 98765-4321`
+- **`removeNonNumeric(value)`** - Remove caracteres não numéricos
+
+### Exemplo de Uso
+
+```typescript
+import { validateCNPJ, formatCNPJ } from "@/lib/validations";
+
+{
+    name: "cnpj",
+    type: "text",
+    hooks: {
+        afterChange: [({ value }) => formatCNPJ(value)],
+    },
+    validate: validateCNPJ,
+}
+```
 
 🗄️ Banco de Dados e Armazenamento
 D1 Database (SQLite)
@@ -133,14 +176,22 @@ Executar migrações pendentes
 Fazer build da aplicação
 Fazer deploy no Cloudflare Workers
 📚 Documentação
-PLANNING.md
- - Arquitetura e padrões do projeto
-TASK.md
- - Gerenciamento de tarefas
-DEBUG.md
- - Registro de erros e soluções
-Payload CMS Docs
-Cloudflare Workers Docs
+
+### Documentação do Projeto
+
+- **[PLANNING.md](./PLANNING.md)** - Arquitetura e padrões do projeto
+- **[TASK.md](./TASK.md)** - Gerenciamento de tarefas
+- **[DEBUG.md](./DEBUG.md)** - Registro de erros e soluções
+
+### Documentação das APIs
+
+- **[BANNERS.md](./BANNERS.md)** - API de Banners da Página Inicial
+- **[DADOS-INSTITUCIONAIS.md](./DADOS-INSTITUCIONAIS.md)** - API de Dados Institucionais
+
+### Links Externos
+
+- [Payload CMS Docs](https://payloadcms.com/docs)
+- [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)
 ⚠️ Observações Importantes
 Plano Pago do Workers: Necessário devido ao tamanho do bundle (limite de 3MB)
 GraphQL: Suporte limitado no Cloudflare Workers
