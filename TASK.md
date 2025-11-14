@@ -3,6 +3,7 @@
 ## ✅ Concluídas
 
 ### 2025-01-13
+
 - [x] Criar regras de tradução em português brasileiro
 - [x] Adicionar regras de tradução às configurações globais do Windsurf
 - [x] Criar PLANNING.md com arquitetura e padrões do projeto
@@ -28,11 +29,14 @@
 ## 📋 Pendentes
 
 ### Documentação
+
 - [x] Atualizar README.md com regras de tradução
 - [ ] Testar interface do admin em português
 
 ### Desenvolvimento
+
 - [ ] (Adicionar novas tarefas conforme necessário)
+- [ ] Configurar Tailwind CSS e shadcn/ui no CMS (2025-11-13)
 
 ## 🔍 Descobertas Durante o Trabalho
 
