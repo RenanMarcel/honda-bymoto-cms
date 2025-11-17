@@ -245,11 +245,10 @@ const menorPreco = Math.min(...moto.modelos.map((m) => m.dadosFinanceiros.preco)
 ### Parcelamento
 
 - **qtdParcelas:** Quantidade de meses do financiamento
-- **precoParcela:** Valor de cada parcela em reais
-- **precoTotal:** Valor total pago ao final do financiamento
-- **precoParcela:** Valor que o cliente pagará mensalmente
-- **precoTotal:** Valor total ao final (qtdParcelas × precoParcela)
-- Sempre exiba o precoTotal para transparência
+- **precoParcela:** Valor que o cliente pagará mensalmente (em reais)
+- **precoTotal:** Valor total ao final - **calculado automaticamente** (qtdParcelas × precoParcela)
+- O campo `precoTotal` é somente leitura no admin e preenchido automaticamente
+- Sempre exiba o precoTotal para transparência no frontend
 
 **Exemplo de exibição:**
 

@@ -111,6 +111,23 @@ export const MotosNovas: CollectionConfig = {
                                 description:
                                     "Cadastre as opções de parcelamento do financiamento disponíveis (opcional)",
                             },
+                            hooks: {
+                                beforeChange: [
+                                    ({ value }) => {
+                                        if (!value || !Array.isArray(value)) return value;
+
+                                        return value.map((item: any) => {
+                                            if (item.qtdParcelas && item.precoParcela) {
+                                                return {
+                                                    ...item,
+                                                    precoTotal: item.qtdParcelas * item.precoParcela,
+                                                };
+                                            }
+                                            return item;
+                                        });
+                                    },
+                                ],
+                            },
                             fields: [
                                 {
                                     name: "qtdParcelas",
@@ -143,17 +160,10 @@ export const MotosNovas: CollectionConfig = {
                                     name: "precoTotal",
                                     label: "Preço Total Financiado",
                                     type: "number",
-                                    required: true,
                                     admin: {
                                         description:
-                                            "Valor total pago ao final do financiamento (quantidade × valor da parcela)",
-                                        placeholder: "17772.60",
-                                    },
-                                    validate: (value: number) => {
-                                        if (!value || value <= 0) {
-                                            return "Preço total deve ser maior que zero";
-                                        }
-                                        return true;
+                                            "Calculado automaticamente (quantidade × valor da parcela). Campo somente leitura.",
+                                        readOnly: true,
                                     },
                                 },
                             ],

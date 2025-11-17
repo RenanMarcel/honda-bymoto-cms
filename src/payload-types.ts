@@ -300,9 +300,9 @@ export interface MotosNova {
              */
             precoParcela: number;
             /**
-             * Valor total pago ao final do financiamento (quantidade × valor da parcela)
+             * Calculado automaticamente (quantidade × valor da parcela). Campo somente leitura.
              */
-            precoTotal: number;
+            precoTotal?: number | null;
             id?: string | null;
           }[]
         | null;
