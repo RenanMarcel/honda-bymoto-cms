@@ -13,6 +13,7 @@ import { Usuarios } from "./collections/Usuarios";
 import { Midia } from "./collections/Midia";
 import { BannersPaginaInicial } from "./collections/BannersPaginaInicial";
 import { PerfisAcesso } from "./collections/PerfisAcesso";
+import { MotosNovas } from "./collections/MotosNovas";
 import { DadosInstitucionais } from "./globals/DadosInstitucionais";
 import { Parametros } from "./globals/Parametros";
 
@@ -42,7 +43,7 @@ export default buildConfig({
             titleSuffix: "- Honda By Moto CMS",
         },
     },
-    collections: [Usuarios, PerfisAcesso, Midia, BannersPaginaInicial],
+    collections: [Usuarios, PerfisAcesso, Midia, BannersPaginaInicial, MotosNovas],
     globals: [DadosInstitucionais, Parametros],
     i18n: {
         supportedLanguages: {

@@ -71,6 +71,7 @@ export interface Config {
     'perfis-acesso': PerfisAcesso;
     midia: Midia;
     'banners-pagina-inicial': BannersPaginaInicial;
+    'motos-novas': MotosNova;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -82,6 +83,7 @@ export interface Config {
     'perfis-acesso': PerfisAcessoSelect<false> | PerfisAcessoSelect<true>;
     midia: MidiaSelect<false> | MidiaSelect<true>;
     'banners-pagina-inicial': BannersPaginaInicialSelect<false> | BannersPaginaInicialSelect<true>;
+    'motos-novas': MotosNovasSelect<false> | MotosNovasSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -256,6 +258,83 @@ export interface BannersPaginaInicial {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "motos-novas".
+ */
+export interface MotosNova {
+  /**
+   * Identificador único da moto (ex.: biz-125, cg-160). Usado nas URLs e APIs
+   */
+  id: string;
+  /**
+   * Nome da moto (ex.: Biz 125, CG 160)
+   */
+  nome: string;
+  /**
+   * Se desmarcado, a moto não aparecerá no site
+   */
+  ativo?: boolean | null;
+  /**
+   * Cadastre os diferentes modelos/variações desta moto (ex.: ES, EX, Sport, Flex)
+   */
+  modelos: {
+    /**
+     * Nome/versão do modelo (ex.: ES, EX, Sport, Flex)
+     */
+    nome: string;
+    dadosFinanceiros: {
+      /**
+       * Preço de venda à vista do modelo (em reais)
+       */
+      preco: number;
+      /**
+       * Cadastre as opções de parcelamento do financiamento disponíveis (opcional)
+       */
+      parcelamento?:
+        | {
+            /**
+             * Número de parcelas (meses)
+             */
+            qtdParcelas: number;
+            /**
+             * Valor de cada parcela (em reais)
+             */
+            precoParcela: number;
+            /**
+             * Valor total pago ao final do financiamento (quantidade × valor da parcela)
+             */
+            precoTotal: number;
+            id?: string | null;
+          }[]
+        | null;
+      /**
+       * Preço promocional quando aplicável (normalmente menor que o preço à vista)
+       */
+      precoOferta?: number | null;
+      /**
+       * Liste as vantagens/diferenciais da oferta (ex.: Promoção para pagamento à vista, Estoque limitado)
+       */
+      vantagensOferta?:
+        | {
+            vantagem: string;
+            id?: string | null;
+          }[]
+        | null;
+    };
+    /**
+     * Se marcado, este modelo aparecerá na seção de consórcio do site
+     */
+    exibirConsorcio?: boolean | null;
+    /**
+     * Se marcado, este modelo aparecerá na seção de ofertas especiais do site
+     */
+    exibirOferta?: boolean | null;
+    id?: string | null;
+  }[];
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -293,6 +372,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'banners-pagina-inicial';
         value: number | BannersPaginaInicial;
+      } | null)
+    | ({
+        relationTo: 'motos-novas';
+        value: string | MotosNova;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -421,6 +504,45 @@ export interface BannersPaginaInicialSelect<T extends boolean = true> {
   textoLegal?: T;
   ordem?: T;
   ativo?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "motos-novas_select".
+ */
+export interface MotosNovasSelect<T extends boolean = true> {
+  id?: T;
+  nome?: T;
+  ativo?: T;
+  modelos?:
+    | T
+    | {
+        nome?: T;
+        dadosFinanceiros?:
+          | T
+          | {
+              preco?: T;
+              parcelamento?:
+                | T
+                | {
+                    qtdParcelas?: T;
+                    precoParcela?: T;
+                    precoTotal?: T;
+                    id?: T;
+                  };
+              precoOferta?: T;
+              vantagensOferta?:
+                | T
+                | {
+                    vantagem?: T;
+                    id?: T;
+                  };
+            };
+        exibirConsorcio?: T;
+        exibirOferta?: T;
+        id?: T;
+      };
   updatedAt?: T;
   createdAt?: T;
 }

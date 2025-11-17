@@ -35,9 +35,10 @@ O admin estará disponível em: http://localhost:3000/admin
 📋 Estrutura do Projeto
 Collections
 Usuários (usuarios) - Autenticação e gerenciamento de usuários
+Perfis de Acesso (perfis-acesso) - Grupos de usuários e níveis de acesso por coleção/menus
 Mídia (midia) - Upload e armazenamento de arquivos no R2
 Banners Página Inicial (banners-pagina-inicial) - Banners da página inicial do site
-Perfis de Acesso (perfis-acesso) - Grupos de usuários e níveis de acesso por coleção/menus
+Motos Novas (motos-novas) - Catálogo de motos novas com dados financeiros
 
 Globals
 Dados Institucionais (dados-institucionais) - Informações da empresa e concessionárias
@@ -45,8 +46,10 @@ Parâmetros (parametros) - Configurações e parâmetros globais do site
 
 Endpoints da API
 GET /api/usuarios
+GET /api/perfis-acesso
 GET /api/midia
 GET /api/banners-pagina-inicial
+GET /api/motos-novas
 GET /api/globals/dados-institucionais
 GET /api/globals/parametros
 Tradução pt-BR
@@ -190,6 +193,7 @@ Fazer deploy no Cloudflare Workers
 - **[BANNERS.md](./BANNERS.md)** - API de Banners da Página Inicial
 - **[DADOS-INSTITUCIONAIS.md](./DADOS-INSTITUCIONAIS.md)** - API de Dados Institucionais
 - **[PARAMETROS.md](./PARAMETROS.md)** - API de Parâmetros do Site
+- **[MOTOS-NOVAS.md](./MOTOS-NOVAS.md)** - API de Motos Novas (Dados Financeiros)
 
 ### Links Externos
 

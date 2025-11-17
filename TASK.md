@@ -45,6 +45,15 @@
 - [x] Implementar dropdowns para valores fixos com labels tratadas
 - [x] Criar documentação completa da API de Parâmetros (PARAMETROS.md)
 
+### 2025-11-17
+
+- [x] Criar coleção Motos Novas (motos-novas) para catálogo de motos
+- [x] Implementar estrutura simplificada com: id, nome, ativo, modelos
+- [x] Adicionar dadosFinanceiros como group dentro de cada modelo
+- [x] Implementar campos exibirConsorcio e exibirOferta
+- [x] Adicionar validações para preços, parcelas e IDs
+- [x] Criar documentação completa da API de Motos Novas (MOTOS-NOVAS.md)
+
 ## 📋 Pendentes
 
 ### Documentação
