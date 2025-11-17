@@ -39,6 +39,7 @@ Perfis de Acesso (perfis-acesso) - Grupos de usuários e níveis de acesso por c
 Mídia (midia) - Upload e armazenamento de arquivos no R2
 Banners Página Inicial (banners-pagina-inicial) - Banners da página inicial do site
 Motos Novas (motos-novas) - Catálogo de motos novas com dados financeiros
+Motos Seminovas (motos-seminovas) - Catálogo de motos seminovas
 
 Globals
 Dados Institucionais (dados-institucionais) - Informações da empresa e concessionárias
@@ -50,6 +51,7 @@ GET /api/perfis-acesso
 GET /api/midia
 GET /api/banners-pagina-inicial
 GET /api/motos-novas
+GET /api/motos-seminovas
 GET /api/globals/dados-institucionais
 GET /api/globals/parametros
 Tradução pt-BR
@@ -194,6 +196,7 @@ Fazer deploy no Cloudflare Workers
 - **[DADOS-INSTITUCIONAIS.md](./DADOS-INSTITUCIONAIS.md)** - API de Dados Institucionais
 - **[PARAMETROS.md](./PARAMETROS.md)** - API de Parâmetros do Site
 - **[MOTOS-NOVAS.md](./MOTOS-NOVAS.md)** - API de Motos Novas (Dados Financeiros)
+- **[MOTOS-SEMINOVAS.md](./MOTOS-SEMINOVAS.md)** - API de Motos Seminovas
 
 ### Links Externos
 

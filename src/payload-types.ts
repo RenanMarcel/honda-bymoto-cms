@@ -72,6 +72,7 @@ export interface Config {
     midia: Midia;
     'banners-pagina-inicial': BannersPaginaInicial;
     'motos-novas': MotosNova;
+    'motos-seminovas': MotosSeminova;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -84,6 +85,7 @@ export interface Config {
     midia: MidiaSelect<false> | MidiaSelect<true>;
     'banners-pagina-inicial': BannersPaginaInicialSelect<false> | BannersPaginaInicialSelect<true>;
     'motos-novas': MotosNovasSelect<false> | MotosNovasSelect<true>;
+    'motos-seminovas': MotosSeminovasSelect<false> | MotosSeminovasSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -335,6 +337,101 @@ export interface MotosNova {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "motos-seminovas".
+ */
+export interface MotosSeminova {
+  /**
+   * Identificador único da moto (ex.: nc-750x-preta-2020). Usado nas URLs e APIs
+   */
+  id: string;
+  /**
+   * Se desmarcado, a moto não aparecerá no site
+   */
+  ativo?: boolean | null;
+  /**
+   * Placa da moto (ex.: ABC-1234)
+   */
+  placa: string;
+  /**
+   * Marca da moto (ex.: Honda)
+   */
+  marca: string;
+  /**
+   * Nome completo da moto (ex.: NC 750X)
+   */
+  nome: string;
+  /**
+   * Ano em que a moto foi fabricada
+   */
+  anoFabricacao: number;
+  /**
+   * Ano do modelo da moto
+   */
+  anoModelo: number;
+  /**
+   * Quilometragem da moto (ex.: 15000 ou 15.000 km)
+   */
+  quilometragem: string;
+  /**
+   * Tipo de combustível
+   */
+  combustivel: 'Gasolina' | 'Álcool' | 'Flex' | 'Elétrico';
+  /**
+   * Cor da moto (ex.: Preta, Vermelha)
+   */
+  cor: string;
+  /**
+   * Categoria/tipo da moto
+   */
+  categoria: 'City' | 'Scooter' | 'Naked' | 'Trail' | 'Big Trail' | 'Crossover' | 'Off Road' | 'Sport' | 'Touring';
+  /**
+   * Preço de venda da moto (em reais)
+   */
+  preco: number;
+  /**
+   * Selecione a filial onde a moto está disponível
+   */
+  local: string;
+  /**
+   * Liste as principais características da moto (ex.: Baixa manutenção, Econômica, Único dono)
+   */
+  caracteristicas?:
+    | {
+        caracteristica: string;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Liste os adicionais e diferenciais da moto (ex.: 3 meses de garantia, Transferência gratuita)
+   */
+  adicionais?:
+    | {
+        adicional: string;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Imagem principal da moto exibida nas listagens e cards
+   */
+  imagem: number | Midia;
+  /**
+   * Galeria com fotos adicionais da moto (opcional)
+   */
+  galeria?:
+    | {
+        imagem: number | Midia;
+        /**
+         * Descrição da imagem para acessibilidade (ex.: NC 750X foto 1)
+         */
+        alt?: string | null;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -376,6 +473,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'motos-novas';
         value: string | MotosNova;
+      } | null)
+    | ({
+        relationTo: 'motos-seminovas';
+        value: string | MotosSeminova;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -541,6 +642,47 @@ export interface MotosNovasSelect<T extends boolean = true> {
             };
         exibirConsorcio?: T;
         exibirOferta?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "motos-seminovas_select".
+ */
+export interface MotosSeminovasSelect<T extends boolean = true> {
+  id?: T;
+  ativo?: T;
+  placa?: T;
+  marca?: T;
+  nome?: T;
+  anoFabricacao?: T;
+  anoModelo?: T;
+  quilometragem?: T;
+  combustivel?: T;
+  cor?: T;
+  categoria?: T;
+  preco?: T;
+  local?: T;
+  caracteristicas?:
+    | T
+    | {
+        caracteristica?: T;
+        id?: T;
+      };
+  adicionais?:
+    | T
+    | {
+        adicional?: T;
+        id?: T;
+      };
+  imagem?: T;
+  galeria?:
+    | T
+    | {
+        imagem?: T;
+        alt?: T;
         id?: T;
       };
   updatedAt?: T;

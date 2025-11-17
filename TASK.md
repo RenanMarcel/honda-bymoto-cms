@@ -52,7 +52,16 @@
 - [x] Adicionar dadosFinanceiros como group dentro de cada modelo
 - [x] Implementar campos exibirConsorcio e exibirOferta
 - [x] Adicionar validações para preços, parcelas e IDs
+- [x] Tornar campo parcelamento opcional
+- [x] Implementar cálculo automático do preço total financiado
 - [x] Criar documentação completa da API de Motos Novas (MOTOS-NOVAS.md)
+- [x] Criar coleção Motos Seminovas (motos-seminovas)
+- [x] Implementar campos conforme tipagem do frontend
+- [x] Adicionar selects para categoria, combustível e local
+- [x] Implementar relacionamento com imagens (principal e galeria)
+- [x] Adicionar validações de ano e preço
+- [x] Criar componente customizado para selecionar filial (linkado com Dados Institucionais)
+- [x] Campo local agora busca concessionárias cadastradas dinamicamente
 
 ## 📋 Pendentes
 
