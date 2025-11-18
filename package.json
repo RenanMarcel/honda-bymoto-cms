@@ -24,7 +24,8 @@
         "test:e2e": "cross-env NODE_OPTIONS=\"--no-deprecation --no-experimental-strip-types\" pnpm exec playwright test",
         "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts",
         "import:seminovas:preview": "node --loader ts-node/esm src/scripts/ImportSeminovasFromByMoto.ts",
-        "import:seminovas:run": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload run src/scripts/ImportSeminovasToPayload.ts"
+        "import:seminovas:run": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload run src/scripts/ImportSeminovasToPayload.ts",
+        "import:motos-novas:run": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload run src/scripts/ImportMotosNovasFromLp.ts"
     },
     "dependencies": {
         "@opennextjs/cloudflare": "^1.6.5",

@@ -323,6 +323,10 @@ export interface MotosNova {
         | null;
     };
     /**
+     * Desmarque para motos que já tenham modelos mais novos. Para que este modelo não apareça na coleção de motos novas.
+     */
+    exibirMotosNovas?: boolean | null;
+    /**
      * Se marcado, este modelo aparecerá na seção de consórcio do site
      */
     exibirConsorcio?: boolean | null;
@@ -640,6 +644,7 @@ export interface MotosNovasSelect<T extends boolean = true> {
                     id?: T;
                   };
             };
+        exibirMotosNovas?: T;
         exibirConsorcio?: T;
         exibirOferta?: T;
         id?: T;

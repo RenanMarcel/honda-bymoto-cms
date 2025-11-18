@@ -9,7 +9,7 @@ Coleção responsável pelo cadastro de motos novas disponíveis na concessioná
 - **Moto Nova** (ex.: Biz 125)
     - **Modelos** (ex.: ES, EX, Sport)
         - **Dados Financeiros** (preço, parcelamento, ofertas)
-        - **Flags** (exibirConsorcio, exibirOferta)
+        - **Flags** (exibirMotosNovas, exibirConsorcio, exibirOferta)
 
 > **Nota:** Esta coleção está em desenvolvimento inicial. Futuramente incluirá especificações técnicas, imagens, cores, etc. Por enquanto, use apenas para dados financeiros.
 
@@ -25,6 +25,7 @@ Coleção responsável pelo cadastro de motos novas disponíveis na concessioná
 
 - `where[ativo][equals]=true` — retorna apenas motos ativas
 - `where[id][equals]=biz-125` — busca por ID específico
+- `where[modelos.exibirMotosNovas][equals]=true` — retorna apenas modelos marcados para aparecer na coleção de motos novas (útil para esconder modelos 2025 quando já existe 2026)
 - `where[modelos.exibirOferta][equals]=true` — retorna motos com ofertas
 - `where[modelos.exibirConsorcio][equals]=true` — retorna motos com consórcio
 
@@ -86,6 +87,7 @@ GET /api/motos-novas?where[ativo][equals]=true&where[modelos.exibirOferta][equal
                     }
                 ]
             },
+            "exibirMotosNovas": true,
             "exibirConsorcio": true,
             "exibirOferta": true,
             "id": "modelo-1"
@@ -132,6 +134,7 @@ GET /api/motos-novas?where[ativo][equals]=true&where[modelos.exibirOferta][equal
                     }
                 ]
             },
+            "exibirMotosNovas": true,
             "exibirConsorcio": true,
             "exibirOferta": true,
             "id": "modelo-2"
@@ -194,6 +197,8 @@ export type Modelo = {
     nome: string;
     /** Dados financeiros do modelo. */
     dadosFinanceiros: DadosFinanceiros;
+    /** Se true, exibe este modelo na coleção de motos novas (grid principal). */
+    exibirMotosNovas: boolean;
     /** Se true, exibe na seção de consórcio. */
     exibirConsorcio: boolean;
     /** Se true, exibe na seção de ofertas. */
@@ -241,6 +246,7 @@ const menorPreco = Math.min(...moto.modelos.map((m) => m.dadosFinanceiros.preco)
 - Cada modelo possui seu próprio objeto `dadosFinanceiros`
 - Use `modelos[].nome` para exibir o nome da variação
 - Exiba todas as opções de parcelamento disponíveis para cada modelo
+- Use `modelos[].exibirMotosNovas` para controlar modelos que **não devem mais aparecer** na coleção de motos novas (por exemplo, versões 2025 quando a 2026 já está ativa)
 
 ### Parcelamento
 
@@ -509,7 +515,7 @@ Todos os campos possuem validações robustas no backend:
 - ✅ **Nome:** Obrigatório e não pode estar vazio
 - ✅ **Slug:** Obrigatório, único, formato `kebab-case` (apenas letras minúsculas, números e hífens)
 - ✅ **ID do Modelo:** Formato `kebab-case`, obrigatório
-- ✅ **Preço:** Obrigatório e deve ser maior que zero
+- ✅ **Preço:** Obrigatório e **não pode ser negativo** (pode ser 0 quando necessário)
 - ✅ **Quantidade de Parcelas:** Obrigatório e deve ser número inteiro positivo
 - ✅ **Valor da Parcela:** Obrigatório e deve ser maior que zero
 - ✅ **Preço Total:** Obrigatório e deve ser maior que zero

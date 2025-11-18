@@ -156,7 +156,7 @@ async function processarImagens(
     seminova: SeminovaScraped,
     nome: string,
 ): Promise<{ principalId: number | null; galeriaIds: number[] }> {
-    if (seminova.images.length === 0) {
+    if (!seminova.images || seminova.images.length === 0) {
         return { principalId: null, galeriaIds: [] };
     }
     const [imagemPrincipal, ...imagensGaleria] = seminova.images;

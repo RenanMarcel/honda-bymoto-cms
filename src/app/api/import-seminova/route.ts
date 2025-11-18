@@ -38,7 +38,7 @@ type MileageInfo = {
     readonly quilometragemTexto: string | null;
 };
 
-type ImportResult = "created" | "updated" | "skipped";
+type ImportResult = "created" | "updated" | "skipped" | "skipped-fetch" | "skipped-preco-ou-ano";
 
 type ImagensProcessadas = {
     readonly imagemPrincipalId: number | null;
@@ -394,7 +394,7 @@ async function importarSeminova(detailUrl: string): Promise<ImportResult> {
     const payload: any = await getPayload({ config });
     const response: Response = await fetch(detailUrl);
     if (!response.ok) {
-        return "skipped";
+        return "skipped-fetch";
     }
     const html: string = await response.text();
     const detail: SeminovaScraped = extractDetailFromHtml(html, detailUrl);
@@ -421,7 +421,7 @@ async function importarSeminova(detailUrl: string): Promise<ImportResult> {
         imagensProcessadas.galeria,
     );
     if (!dadosSeminova.preco || !dadosSeminova.anoFabricacao || !dadosSeminova.anoModelo) {
-        return "skipped";
+        return "skipped-preco-ou-ano";
     }
     const existentes = await payload.find({
         collection: "motos-seminovas",
@@ -513,15 +513,32 @@ export async function POST(request: NextRequest): Promise<NextResponse<ImportRes
     }
     try {
         const resultado: ImportResult = await importarSeminova(detailUrl);
-        if (resultado === "skipped") {
+        if (resultado === "created") {
+            return NextResponse.json({ message: "Moto seminova criada com sucesso." }, { status: 200 });
+        }
+        if (resultado === "updated") {
+            return NextResponse.json({ message: "Moto seminova atualizada com sucesso." }, { status: 200 });
+        }
+        if (resultado === "skipped-fetch") {
             return NextResponse.json(
-                { error: "A moto não pôde ser importada. Verifique se a página possui dados completos." },
+                {
+                    error: "Não foi possível acessar a página do seminovo na ByMoto (falha ao buscar a URL). Verifique a URL ou tente novamente mais tarde.",
+                },
                 { status: 422 },
             );
         }
-        const message: string =
-            resultado === "created" ? "Moto seminova criada com sucesso." : "Moto seminova atualizada com sucesso.";
-        return NextResponse.json({ message }, { status: 200 });
+        if (resultado === "skipped-preco-ou-ano") {
+            return NextResponse.json(
+                {
+                    error: "A moto não pôde ser importada porque preço ou anos (fabricação/modelo) não foram encontrados na página.",
+                },
+                { status: 422 },
+            );
+        }
+        return NextResponse.json(
+            { error: "A moto não pôde ser importada por um motivo desconhecido." },
+            { status: 422 },
+        );
     } catch (erro: unknown) {
         // eslint-disable-next-line no-console
         console.error(erro);

@@ -93,8 +93,11 @@ export const MotosNovas: CollectionConfig = {
                                 placeholder: "15590.00",
                             },
                             validate: (value: number) => {
-                                if (!value || value <= 0) {
-                                    return "Preço deve ser maior que zero";
+                                if (value === null || value === undefined || Number.isNaN(value)) {
+                                    return "Preço é obrigatório";
+                                }
+                                if (value < 0) {
+                                    return "Preço não pode ser negativo";
                                 }
                                 return true;
                             },
@@ -210,6 +213,16 @@ export const MotosNovas: CollectionConfig = {
                             ],
                         },
                     ],
+                },
+                {
+                    name: "exibirMotosNovas",
+                    label: "Exibir em Motos Novas",
+                    type: "checkbox",
+                    defaultValue: true,
+                    admin: {
+                        description:
+                            "Desmarque para motos que já tenham modelos mais novos. Para que este modelo não apareça na coleção de motos novas.",
+                    },
                 },
                 {
                     name: "exibirConsorcio",
