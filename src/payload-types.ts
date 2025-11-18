@@ -413,7 +413,7 @@ export interface MotosSeminova {
   /**
    * Imagem principal da moto exibida nas listagens e cards
    */
-  imagem: number | Midia;
+  imagem?: (number | null) | Midia;
   /**
    * Galeria com fotos adicionais da moto (opcional)
    */

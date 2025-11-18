@@ -1,0 +1,1638 @@
+﻿[
+  {
+    "name": "HONDA POP 110i",
+    "priceText": "R$ 10.900,00",
+    "yearText": "22/22",
+    "mileageText": "73.044",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2022,
+    "quilometragemNumero": 73044,
+    "quilometragemTexto": "73.044",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/b18/d19/68bb18d194936450163850.jpg",
+        "alt": "HONDA-POP-POP 110i"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/b18/d19/68bb18d194df0113142418.jpg",
+        "alt": "HONDA-POP-POP 110i"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/b18/d26/68bb18d26b18e598408685.jpg",
+        "alt": "HONDA-POP-POP 110i"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/b18/d33/68bb18d338825647696980.jpg",
+        "alt": "HONDA-POP-POP 110i"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/b18/d2c/68bb18d2cbdf8602335793.jpg",
+        "alt": "HONDA-POP-POP 110i"
+      }
+    ]
+  },
+  {
+    "name": "YAMAHA NMAX 160",
+    "priceText": "R$ 14.500,00",
+    "yearText": "17/17",
+    "mileageText": "11.346",
+    "locationText": null,
+    "anoFabricacao": 2017,
+    "anoModelo": 2017,
+    "quilometragemNumero": 11346,
+    "quilometragemTexto": "11.346",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/c91/5a1/690c915a1252f760094045.jpg",
+        "alt": "YAMAHA-NMAX-NMAX 160"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/c91/57d/690c9157d00cb297222464.jpg",
+        "alt": "YAMAHA-NMAX-NMAX 160"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/c91/57c/690c9157c9f3b821524081.jpg",
+        "alt": "YAMAHA-NMAX-NMAX 160"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/c91/5dc/690c915dc2498502700826.jpg",
+        "alt": "YAMAHA-NMAX-NMAX 160"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/c91/5cc/690c915cc2fdf957753832.jpg",
+        "alt": "YAMAHA-NMAX-NMAX 160"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/c91/5b0/690c915b020ea231077698.jpg",
+        "alt": "YAMAHA-NMAX-NMAX 160"
+      }
+    ]
+  },
+  {
+    "name": "HONDA ELITE 125",
+    "priceText": "R$ 15.390,00",
+    "yearText": "24/25",
+    "mileageText": "102",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 102,
+    "quilometragemTexto": "102",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b43/fb7/690b43fb744ed129561823.jpg",
+        "alt": "HONDA-ELITE-ELITE 125"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b43/fa7/690b43fa7af48789608960.jpg",
+        "alt": "HONDA-ELITE-ELITE 125"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b43/fb6/690b43fb6b453405471470.jpg",
+        "alt": "HONDA-ELITE-ELITE 125"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b43/fa7/690b43fa7b09b993399259.jpg",
+        "alt": "HONDA-ELITE-ELITE 125"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b43/fc3/690b43fc39445160598660.jpg",
+        "alt": "HONDA-ELITE-ELITE 125"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b43/fc4/690b43fc4b108500532382.jpg",
+        "alt": "HONDA-ELITE-ELITE 125"
+      }
+    ]
+  },
+  {
+    "name": "YAMAHA NMAX 160 ABS",
+    "priceText": "R$ 15.500,00",
+    "yearText": "19/19",
+    "mileageText": "50.330",
+    "locationText": null,
+    "anoFabricacao": 2019,
+    "anoModelo": 2019,
+    "quilometragemNumero": 50330,
+    "quilometragemTexto": "50.330",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/37d/6b7/69137d6b7bc80835566729.jpeg",
+        "alt": "YAMAHA-NMAX-NMAX 160 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/37d/6aa/69137d6aac46e418679470.jpeg",
+        "alt": "YAMAHA-NMAX-NMAX 160 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/37d/69b/69137d69bb352750912487.jpeg",
+        "alt": "YAMAHA-NMAX-NMAX 160 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/37d/69d/69137d69d2025697714766.jpeg",
+        "alt": "YAMAHA-NMAX-NMAX 160 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/37d/6aa/69137d6aae303929529551.jpeg",
+        "alt": "YAMAHA-NMAX-NMAX 160 ABS"
+      }
+    ]
+  },
+  {
+    "name": "Honda PCX 150/DLX",
+    "priceText": "R$ 16.290,00",
+    "yearText": "19/20",
+    "mileageText": "16.057",
+    "locationText": null,
+    "anoFabricacao": 2019,
+    "anoModelo": 2020,
+    "quilometragemNumero": 16057,
+    "quilometragemTexto": "16.057",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce5/e55/690ce5e55118d946249765.jpeg",
+        "alt": "Honda-PCX 150-PCX 150/DLX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce5/dea/690ce5deae41a075052246.jpeg",
+        "alt": "Honda-PCX 150-PCX 150/DLX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce5/e0b/690ce5e0bdda8928060614.jpeg",
+        "alt": "Honda-PCX 150-PCX 150/DLX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce5/e43/690ce5e433a3c228554814.jpeg",
+        "alt": "Honda-PCX 150-PCX 150/DLX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce5/e26/690ce5e26e610633671634.jpeg",
+        "alt": "Honda-PCX 150-PCX 150/DLX"
+      }
+    ]
+  },
+  {
+    "name": "Honda CG 160 START",
+    "priceText": "R$ 16.308,00",
+    "yearText": "23/24",
+    "mileageText": "53.247",
+    "locationText": null,
+    "anoFabricacao": 2023,
+    "anoModelo": 2024,
+    "quilometragemNumero": 53247,
+    "quilometragemTexto": "53.247",
+    "cor": "prata",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce7/3d1/690ce73d1806c137856561.jpeg",
+        "alt": "Honda-CG 160-CG 160 START"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce7/357/690ce73576a9e032310244.jpeg",
+        "alt": "Honda-CG 160-CG 160 START"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce7/346/690ce7346e7d5222727741.jpeg",
+        "alt": "Honda-CG 160-CG 160 START"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce7/3b2/690ce73b2e658324809106.jpeg",
+        "alt": "Honda-CG 160-CG 160 START"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce7/390/690ce7390911a540370601.jpeg",
+        "alt": "Honda-CG 160-CG 160 START"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CG 160 TITAN S Flex",
+    "priceText": "R$ 16.900,00",
+    "yearText": "22/22",
+    "mileageText": "106.730",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2022,
+    "quilometragemNumero": 106730,
+    "quilometragemTexto": "106.730",
+    "cor": "amarelo",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f9/ed9/68e8f9ed9b550892175866.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f9/ecb/68e8f9ecb6e8f964736209.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f9/ecb/68e8f9ecb9686724847353.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f9/ee6/68e8f9ee64fd5493412512.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f9/ef4/68e8f9ef40afd894503451.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f9/ee9/68e8f9ee92120285068482.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      }
+    ]
+  },
+  {
+    "name": "HONDA BIZ 125 EX/ 125 EX FLEX",
+    "priceText": "R$ 17.490,00",
+    "yearText": "24/25",
+    "mileageText": "1",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 1,
+    "quilometragemTexto": "1",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/df6/691372df668e9456143722.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/df8/691372df807d9358702904.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/e11/691372e11ae70998659439.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/deb/691372deb6907889901223.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/e05/691372e05597c428323425.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/de9/691372de97460395661953.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/372/e02/691372e02ca73189210834.jpeg",
+        "alt": "HONDA-BIZ-BIZ 125 EX/ 125 EX FLEX"
+      }
+    ]
+  },
+  {
+    "name": "HONDA PCX 150 SPORT",
+    "priceText": "R$ 17.900,00",
+    "yearText": "22/22",
+    "mileageText": "32.118",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2022,
+    "quilometragemNumero": 32118,
+    "quilometragemTexto": "32.118",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/0ad/94e/68b0ad94e7ddd955992300.jpg",
+        "alt": "HONDA-PCX-PCX 150 SPORT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/0ad/975/68b0ad9756b1f224880389.jpg",
+        "alt": "HONDA-PCX-PCX 150 SPORT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/0ad/94e/68b0ad94edb8c677889095.jpg",
+        "alt": "HONDA-PCX-PCX 150 SPORT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/0ad/95d/68b0ad95d5ed7330325703.jpg",
+        "alt": "HONDA-PCX-PCX 150 SPORT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/0ad/973/68b0ad973b075324080763.jpg",
+        "alt": "HONDA-PCX-PCX 150 SPORT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68b/0ad/963/68b0ad963073c610123885.jpg",
+        "alt": "HONDA-PCX-PCX 150 SPORT"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CG 160 CARGO Flex",
+    "priceText": "R$ 17.990,00",
+    "yearText": "24/25",
+    "mileageText": "8.196",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 8196,
+    "quilometragemTexto": "8.196",
+    "cor": "branco",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8aa/77b/68a8aa77bf66a437410150.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8aa/75a/68a8aa75a179d613008527.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8aa/76e/68a8aa76e9329290975699.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8aa/76d/68a8aa76d2e14015195941.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8aa/789/68a8aa78920b6102982975.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8ac/ff3/68a8acff3c709492959068.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68a/8ac/ff3/68a8acff34f09689236769.jpg",
+        "alt": "HONDA-CG-CG 160 CARGO Flex"
+      }
+    ]
+  },
+  {
+    "name": "Honda PCX 150 ABS",
+    "priceText": "R$ 18.400,00",
+    "yearText": "22/22",
+    "mileageText": "7.080",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2022,
+    "quilometragemNumero": 7080,
+    "quilometragemTexto": "7.080",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce1/dfc/690ce1dfc0179184932761.jpeg",
+        "alt": "Honda-PCX 150-PCX 150 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce1/dfc/690ce1dfc00d3575603108.jpeg",
+        "alt": "Honda-PCX 150-PCX 150 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce1/e16/690ce1e1652d9996293609.jpeg",
+        "alt": "Honda-PCX 150-PCX 150 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce1/e09/690ce1e0995e5034114204.jpeg",
+        "alt": "Honda-PCX 150-PCX 150 ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce1/e09/690ce1e09aaf1456989183.jpeg",
+        "alt": "Honda-PCX 150-PCX 150 ABS"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CG 160 TITAN S Flex",
+    "priceText": "R$ 18.500,00",
+    "yearText": "23/24",
+    "mileageText": "41.389",
+    "locationText": null,
+    "anoFabricacao": 2023,
+    "anoModelo": 2024,
+    "quilometragemNumero": 41389,
+    "quilometragemTexto": "41.389",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a70/620/68fa706200ca2868436635.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a70/620/68fa70620b051798472363.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a70/62d/68fa7062d141f779722195.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a70/62e/68fa7062e65cc109653902.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a70/63e/68fa7063e6945314293282.jpg",
+        "alt": "HONDA-CG-CG 160 TITAN S Flex"
+      }
+    ]
+  },
+  {
+    "name": "HONDA NXR 160 BROS ESDD FLEXONE",
+    "priceText": "R$ 18.900,00",
+    "yearText": "21/21",
+    "mileageText": "65.568",
+    "locationText": null,
+    "anoFabricacao": 2021,
+    "anoModelo": 2021,
+    "quilometragemNumero": 65568,
+    "quilometragemTexto": "65.568",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/941/c5d/68e941c5d07ba341124106.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/941/c6a/68e941c6a8ad4699221448.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/941/c5d/68e941c5d09dd108242363.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/941/c7e/68e941c7e65ef377429944.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/941/c6c/68e941c6cbe5e656072255.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/941/c7e/68e941c7e68d5362047120.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      }
+    ]
+  },
+  {
+    "name": "YAMAHA FZ15 150 FAZER FLEX",
+    "priceText": "R$ 19.500,00",
+    "yearText": "24/24",
+    "mileageText": "26.599",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2024,
+    "quilometragemNumero": 26599,
+    "quilometragemTexto": "26.599",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/6e8/af2/68d6e8af27d60382419770.jpg",
+        "alt": "YAMAHA-FZ15-FZ15 150 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/6e8/adb/68d6e8adb3ff9928445992.jpg",
+        "alt": "YAMAHA-FZ15-FZ15 150 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/6e8/ad8/68d6e8ad807fb178735384.jpg",
+        "alt": "YAMAHA-FZ15-FZ15 150 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/6e8/ae6/68d6e8ae616b6732076837.jpg",
+        "alt": "YAMAHA-FZ15-FZ15 150 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/6e8/ae7/68d6e8ae79c1a893917315.jpg",
+        "alt": "YAMAHA-FZ15-FZ15 150 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/6e8/af3/68d6e8af3a687607590860.jpg",
+        "alt": "YAMAHA-FZ15-FZ15 150 FAZER FLEX"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CG 160 FAN Flex",
+    "priceText": "R$ 19.900,00",
+    "yearText": "24/25",
+    "mileageText": "6.066",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 6066,
+    "quilometragemTexto": "6.066",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f8/808/68e8f8808bb21193733551.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f8/7ee/68e8f87ee4bfd015168765.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f8/7fb/68e8f87fb0261103257080.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f8/808/68e8f8808619e560285395.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f8/7fa/68e8f87faf18f743671545.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/8f8/7ee/68e8f87ee4c48207849807.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      }
+    ]
+  },
+  {
+    "name": "HONDA ADV 150",
+    "priceText": "R$ 20.990,00",
+    "yearText": "21/21",
+    "mileageText": "17.335",
+    "locationText": null,
+    "anoFabricacao": 2021,
+    "anoModelo": 2021,
+    "quilometragemNumero": 17335,
+    "quilometragemTexto": "17.335",
+    "cor": "branco",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd5/d0e/68efd5d0e17e2663213963.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd5/d1c/68efd5d1c967b345036311.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd5/d0e/68efd5d0e17da093447162.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd5/d2d/68efd5d2d4226915710367.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd6/cc1/68efd6cc1b44e405883266.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd5/d2c/68efd5d2c2cf4615974020.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fd5/d1c/68efd5d1c7c43098354280.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      }
+    ]
+  },
+  {
+    "name": "YAMAHA XTZ 250 LANDER 249cc/LANDER BLUEFLEX/ABS",
+    "priceText": "R$ 21.900,00",
+    "yearText": "19/20",
+    "mileageText": "76.638",
+    "locationText": null,
+    "anoFabricacao": 2019,
+    "anoModelo": 2020,
+    "quilometragemNumero": 76638,
+    "quilometragemTexto": "76.638",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a33/20e/680a3320e474c221775091.jpg",
+        "alt": "YAMAHA-XTZ-XTZ 250 LANDER 249cc/LANDER BLUEFLEX/ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a33/1cb/680a331cbbbca186532476.jpg",
+        "alt": "YAMAHA-XTZ-XTZ 250 LANDER 249cc/LANDER BLUEFLEX/ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a33/3ec/680a333ec87dc771784296.jpg",
+        "alt": "YAMAHA-XTZ-XTZ 250 LANDER 249cc/LANDER BLUEFLEX/ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a33/1f4/680a331f4b829616521380.jpg",
+        "alt": "YAMAHA-XTZ-XTZ 250 LANDER 249cc/LANDER BLUEFLEX/ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a33/1dd/680a331dd09d0251242385.jpg",
+        "alt": "YAMAHA-XTZ-XTZ 250 LANDER 249cc/LANDER BLUEFLEX/ABS"
+      }
+    ]
+  },
+  {
+    "name": "HONDA ADV 150",
+    "priceText": "R$ 21.990,00",
+    "yearText": "22/22",
+    "mileageText": "30.580",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2022,
+    "quilometragemNumero": 30580,
+    "quilometragemTexto": "30.580",
+    "cor": "branco",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fed/01d/68efed01d5e8f832428924.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fed/01c/68efed01c4d7b787009885.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fed/011/68efed01182e6775540386.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fed/00e/68efed00eaea7606172681.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fed/005/68efed0050f35120311644.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/fed/003/68efed0035c3a042530289.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CG 160 FAN Flex",
+    "priceText": "R$ 22.990,00",
+    "yearText": "25/25",
+    "mileageText": "1.088",
+    "locationText": null,
+    "anoFabricacao": 2025,
+    "anoModelo": 2025,
+    "quilometragemNumero": 1088,
+    "quilometragemTexto": "1.088",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a9/582/6883a95823533003774188.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a9/578/6883a9578a04e164708504.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a9/570/6883a95707bcf613356999.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a9/58e/6883a958e6ba8877771678.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a9/5a1/6883a95a1c151837028796.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a9/599/6883a95997533525880524.jpg",
+        "alt": "HONDA-CG-CG 160 FAN Flex"
+      }
+    ]
+  },
+  {
+    "name": "Honda ADV 150",
+    "priceText": "R$ 23.990,00",
+    "yearText": "23/23",
+    "mileageText": "17.304",
+    "locationText": null,
+    "anoFabricacao": 2023,
+    "anoModelo": 2023,
+    "quilometragemNumero": 17304,
+    "quilometragemTexto": "17.304",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/36e/ee3/69136eee3a31a298937345.jpeg",
+        "alt": "Honda-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/36e/ef0/69136eef0c1f8138467615.jpeg",
+        "alt": "Honda-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/36e/f01/69136ef01ee60359739949.jpeg",
+        "alt": "Honda-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/36e/ef0/69136eef0f32a318658187.jpeg",
+        "alt": "Honda-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/36e/ee1/69136eee157be465584141.jpeg",
+        "alt": "Honda-ADV-ADV 150"
+      }
+    ]
+  },
+  {
+    "name": "HONDA ADV 150",
+    "priceText": "R$ 23.990,00",
+    "yearText": "23/23",
+    "mileageText": "26.502",
+    "locationText": null,
+    "anoFabricacao": 2023,
+    "anoModelo": 2023,
+    "quilometragemNumero": 26502,
+    "quilometragemTexto": "26.502",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a7/0e3/6883a70e35264531623567.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a7/0e8/6883a70e839e8849769999.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a7/0cb/6883a70cbeb3a126237487.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a7/0cc/6883a70cc4b3c828095191.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a7/0f4/6883a70f4fce9441478460.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/3a7/0fb/6883a70fbe8d8490511377.jpg",
+        "alt": "HONDA-ADV-ADV 150"
+      }
+    ]
+  },
+  {
+    "name": "HONDA NXR 160 BROS ESDD FLEXONE",
+    "priceText": "R$ 24.690,00",
+    "yearText": "24/25",
+    "mileageText": "1.034",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 1034,
+    "quilometragemTexto": "1.034",
+    "cor": "cinza",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/80b/725/68e80b7258605413937298.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68c/dbe/5d6/68cdbe5d61ebb128956997.jpeg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68c/dbe/5d6/68cdbe5d6217d433663760.jpeg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68c/dbe/5e3/68cdbe5e31d6b318627293.jpeg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68c/dbe/5ed/68cdbe5edb3ab768440239.jpeg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68c/ec2/deb/68cec2debbd91706309249.jpeg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68c/ec2/deb/68cec2debbc2b745606273.jpeg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      }
+    ]
+  },
+  {
+    "name": "HONDA NXR 160 BROS ESDD FLEXONE",
+    "priceText": "R$ 24.790,00",
+    "yearText": "24/25",
+    "mileageText": "584",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 584,
+    "quilometragemTexto": "584",
+    "cor": "cinza",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/d42/eb8/68ed42eb815d3153840733.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/d42/e9c/68ed42e9cbd28923932931.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/d42/eb7/68ed42eb721cd907783421.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/d42/eaa/68ed42eaaab6d618255556.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/d42/ea9/68ed42ea9fa7a565516505.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/d42/ec5/68ed42ec54858012797349.jpg",
+        "alt": "HONDA-NXR-NXR 160 BROS ESDD FLEXONE"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CB 500F",
+    "priceText": "R$ 24.900,00",
+    "yearText": "14/14",
+    "mileageText": "50.222",
+    "locationText": null,
+    "anoFabricacao": 2014,
+    "anoModelo": 2014,
+    "quilometragemNumero": 50222,
+    "quilometragemTexto": "50.222",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cdf/c64/690cdfc649c1b074598433.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cdf/c54/690cdfc5415de814369685.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cdf/c56/690cdfc562ea7650528026.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/186/d2c/68d186d2c0c5c887605770.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68d/186/d6b/68d186d6b5d14546326469.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cdf/c77/690cdfc77472f145318952.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cdf/c64/690cdfc640da8661935462.jpeg",
+        "alt": "HONDA-CB-CB 500F"
+      }
+    ]
+  },
+  {
+    "name": "YAMAHA FZ25 250 FAZER FLEX",
+    "priceText": "R$ 24.964,00",
+    "yearText": "24/24",
+    "mileageText": "19.087",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2024,
+    "quilometragemNumero": 19087,
+    "quilometragemTexto": "19.087",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cea/b16/690ceab16891b327405248.jpeg",
+        "alt": "YAMAHA-FZ25-FZ25 250 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cea/b16/690ceab169606965711009.jpeg",
+        "alt": "YAMAHA-FZ25-FZ25 250 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cea/b46/690ceab4638d8657745476.jpeg",
+        "alt": "YAMAHA-FZ25-FZ25 250 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cea/b65/690ceab656956402237363.jpeg",
+        "alt": "YAMAHA-FZ25-FZ25 250 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cea/b65/690ceab657d90147164594.jpeg",
+        "alt": "YAMAHA-FZ25-FZ25 250 FAZER FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cea/b46/690ceab465156395856521.jpeg",
+        "alt": "YAMAHA-FZ25-FZ25 250 FAZER FLEX"
+      }
+    ]
+  },
+  {
+    "name": "Royal Enfield INTERCEPTOR 650 BLACK PEARL",
+    "priceText": "R$ 29.200,00",
+    "yearText": "24/25",
+    "mileageText": "12.132",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 12132,
+    "quilometragemTexto": "12.132",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a75/cdc/68fa75cdc8a5a533023537.jpg",
+        "alt": "Royal Enfield-Interceptor-INTERCEPTOR 650 BLACK PEARL"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a75/cea/68fa75cea977f480855130.jpg",
+        "alt": "Royal Enfield-Interceptor-INTERCEPTOR 650 BLACK PEARL"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a75/cdc/68fa75cdca564479449198.jpg",
+        "alt": "Royal Enfield-Interceptor-INTERCEPTOR 650 BLACK PEARL"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a75/cea/68fa75cea9bcc753628999.jpg",
+        "alt": "Royal Enfield-Interceptor-INTERCEPTOR 650 BLACK PEARL"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a75/cfc/68fa75cfc73d9259427058.jpg",
+        "alt": "Royal Enfield-Interceptor-INTERCEPTOR 650 BLACK PEARL"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a75/cfc/68fa75cfc1ea7148146007.jpg",
+        "alt": "Royal Enfield-Interceptor-INTERCEPTOR 650 BLACK PEARL"
+      }
+    ]
+  },
+  {
+    "name": "BMW Motorrad G 310 GS",
+    "priceText": "R$ 29.900,00",
+    "yearText": "20/20",
+    "mileageText": "22.063",
+    "locationText": null,
+    "anoFabricacao": 2020,
+    "anoModelo": 2020,
+    "quilometragemNumero": 22063,
+    "quilometragemTexto": "22.063",
+    "cor": "azul",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/8fa/68e9058fab153381003060.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/8f9/68e9058f9ccd8118742775.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/8dd/68e9058dd1c3f515836722.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/8ec/68e9058ec38fe097781141.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/908/68e905908da0a539875581.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/915/68e905915f721515992657.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/905/908/68e905908f5de347547451.jpg",
+        "alt": "BMW Motorrad-G-G 310 GS"
+      }
+    ]
+  },
+  {
+    "name": "HONDA XR 300L TORNADO FLEX",
+    "priceText": "R$ 29.990,00",
+    "yearText": "24/25",
+    "mileageText": "3.058",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 3058,
+    "quilometragemTexto": "3.058",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/70e/69137070e3aa6761815144.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/6d8/6913706d8c1db318074067.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/6e9/6913706e919da698464967.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/6f5/6913706f56d2b591605563.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/702/69137070267b0202729903.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/6f5/6913706f5d0e8449251143.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/370/6d8/6913706d8bfe4979623109.jpeg",
+        "alt": "HONDA-XR-XR 300L TORNADO FLEX"
+      }
+    ]
+  },
+  {
+    "name": "BMW Motorrad R 1200 GS",
+    "priceText": "R$ 38.541,00",
+    "yearText": "06/07",
+    "mileageText": "130.172",
+    "locationText": null,
+    "anoFabricacao": 2006,
+    "anoModelo": 2007,
+    "quilometragemNumero": 130172,
+    "quilometragemTexto": "130.172",
+    "cor": "cinza",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/df0/6899e0df05115894750584.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/e01/6899e0e0111b8988767919.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/de7/6899e0de7f6cb854841581.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/de1/6899e0de155e2326111609.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/dfa/6899e0dfa0570313784003.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/e0a/6899e0e0a662f742463223.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/9e0/e08/6899e0e08eb2c074154049.jpg",
+        "alt": "BMW Motorrad-G-R 1200 GS"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CB 500F",
+    "priceText": "R$ 39.500,00",
+    "yearText": "22/23",
+    "mileageText": "22.063",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2023,
+    "quilometragemNumero": 22063,
+    "quilometragemTexto": "22.063",
+    "cor": "prata",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/003/68e901003d09a640993212.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/010/68e9010105b4c331179578.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/002/68e901002ede9040779712.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/00e/68e90100ec2fc096767044.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/028/68e901028784e005689320.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/028/68e901028aa02567388754.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/901/01b/68e90101b1540178275448.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CB 500F",
+    "priceText": "R$ 39.500,00",
+    "yearText": "22/23",
+    "mileageText": "5.668",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2023,
+    "quilometragemNumero": 5668,
+    "quilometragemTexto": "5.668",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a6c/008/68fa6c0086a19208196223.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a6b/ff6/68fa6bff66802455243490.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a6b/fe5/68fa6bfe53d91361319352.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a6b/fe5/68fa6bfe53eea774788374.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a6c/004/68fa6c004fee6751230695.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68f/a6b/ff3/68fa6bff3aead805836449.jpg",
+        "alt": "HONDA-CB-CB 500F"
+      }
+    ]
+  },
+  {
+    "name": "BMW F 850 GS Adventure Sport",
+    "priceText": "R$ 51.900,00",
+    "yearText": "20/20",
+    "mileageText": "68.821",
+    "locationText": null,
+    "anoFabricacao": 2020,
+    "anoModelo": 2020,
+    "quilometragemNumero": 68821,
+    "quilometragemTexto": "68.821",
+    "cor": "branco",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/d59/68839fd59afb4195012356.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/d57/68839fd5768c6544959746.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/d75/68839fd75efc2906756836.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/d69/68839fd69ebb9328572599.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/d63/68839fd638e71258579656.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/e62/68839fe62dedd596950174.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/688/39f/d77/68839fd77312f644854437.jpg",
+        "alt": "BMW-F-F 850 GS Adventure Sport"
+      }
+    ]
+  },
+  {
+    "name": "Honda NC 750X/NC 750X ABS/DCT",
+    "priceText": "R$ 52.990,00",
+    "yearText": "22/23",
+    "mileageText": "14.460",
+    "locationText": null,
+    "anoFabricacao": 2022,
+    "anoModelo": 2023,
+    "quilometragemNumero": 14460,
+    "quilometragemTexto": "14.460",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/62e/3fb/69162e3fb624d523672325.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/62e/3fa/69162e3fab61b751130938.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/62e/3e5/69162e3e58cbc345300618.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/62e/3d5/69162e3d5f50a676968025.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      }
+    ]
+  },
+  {
+    "name": "HONDA NC 750X/NC 750X ABS",
+    "priceText": "R$ 56.900,00",
+    "yearText": "24/25",
+    "mileageText": "11.469",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 11469,
+    "quilometragemTexto": "11.469",
+    "cor": "prata",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/c88/68e949c88a8af618480243.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/ca0/68e949ca0d6e6838488868.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/ca2/68e949ca2dd13884383259.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/c88/68e949c88a402133803863.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/c95/68e949c952723120775062.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/cad/68e949cad1477496470923.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/caf/68e949caf32c9192177880.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/68e/949/c94/68e949c948587411814931.jpg",
+        "alt": "HONDA-NC-NC 750X/NC 750X ABS"
+      }
+    ]
+  },
+  {
+    "name": "Honda NC 750X/NC 750X ABS/DCT",
+    "priceText": "R$ 58.990,00",
+    "yearText": "24/24",
+    "mileageText": "17.327",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2024,
+    "quilometragemNumero": 17327,
+    "quilometragemTexto": "17.327",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce2/a45/690ce2a45a21c535675446.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce2/a16/690ce2a16710c779784657.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce2/a16/690ce2a16712c561099455.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce2/a27/690ce2a27c582041120175.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/ce2/a26/690ce2a269789211699366.jpeg",
+        "alt": "Honda-NC-NC 750X/NC 750X ABS/DCT"
+      }
+    ]
+  },
+  {
+    "name": "Honda CBR 650 R",
+    "priceText": "R$ 62.500,00",
+    "yearText": "25/26",
+    "mileageText": "349",
+    "locationText": null,
+    "anoFabricacao": 2025,
+    "anoModelo": 2026,
+    "quilometragemNumero": 349,
+    "quilometragemTexto": "349",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/4a3/690cec4a3a967153568519.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/47c/690cec47cb397566330948.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/47c/690cec47cb399936912715.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/4a4/690cec4a439e1880637331.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/48a/690cec48a2ca8258227387.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/48a/690cec48a4be5326802428.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/496/690cec496f40f263567727.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/4b1/690cec4b13fa8559772935.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/cec/497/690cec49708ab901684462.jpeg",
+        "alt": "Honda-CB-CBR 650 R"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CB 1000R Black Edition",
+    "priceText": "R$ 72.900,00",
+    "yearText": "23/23",
+    "mileageText": "20.566",
+    "locationText": null,
+    "anoFabricacao": 2023,
+    "anoModelo": 2023,
+    "quilometragemNumero": 20566,
+    "quilometragemTexto": "20.566",
+    "cor": "preto",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/67f/7b9/c14/67f7b9c146cc7899562375.jpg",
+        "alt": "HONDA-CB-CB 1000R Black Edition"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/67f/7b9/c38/67f7b9c3865f2127045379.jpg",
+        "alt": "HONDA-CB-CB 1000R Black Edition"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/67f/7ba/0c2/67f7ba0c21278644485282.jpg",
+        "alt": "HONDA-CB-CB 1000R Black Edition"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/67f/7b9/c20/67f7b9c20a6ef311079522.jpg",
+        "alt": "HONDA-CB-CB 1000R Black Edition"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/67f/7b9/c2e/67f7b9c2ebea2023048863.jpg",
+        "alt": "HONDA-CB-CB 1000R Black Edition"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/67f/7b9/c3e/67f7b9c3e341b856527292.jpg",
+        "alt": "HONDA-CB-CB 1000R Black Edition"
+      }
+    ]
+  },
+  {
+    "name": "HONDA X-ADV 745cc",
+    "priceText": "R$ 85.990,00",
+    "yearText": "23/23",
+    "mileageText": "20.699",
+    "locationText": null,
+    "anoFabricacao": 2023,
+    "anoModelo": 2023,
+    "quilometragemNumero": 20699,
+    "quilometragemTexto": "20.699",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/736/5a6/6917365a69407128189734.jpg",
+        "alt": "HONDA-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/736/5a6/6917365a69114910539539.jpg",
+        "alt": "HONDA-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/736/5bc/6917365bcf225805476541.jpg",
+        "alt": "HONDA-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/736/5bd/6917365bd503b029434501.jpg",
+        "alt": "HONDA-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/691/736/5cc/6917365cc37bb963942565.jpg",
+        "alt": "HONDA-ADV-X-ADV 745cc"
+      }
+    ]
+  },
+  {
+    "name": "HONDA X-ADV 745cc",
+    "priceText": "R$ 89.990,00",
+    "yearText": "24/25",
+    "mileageText": "6.584",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2025,
+    "quilometragemNumero": 6584,
+    "quilometragemTexto": "6.584",
+    "cor": "cinza",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e3d/68794fe3d35e4414603127.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e35/68794fe35d096558850758.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e2c/68794fe2ca5f7952027990.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e46/68794fe46b42c476373609.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e4d/68794fe4d6e4e269678451.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e57/68794fe57cf8a803491178.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/687/94f/e60/68794fe609a16250383652.jpg",
+        "alt": "HONDA-X-ADV-X-ADV 745cc"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT",
+    "priceText": "R$ 90.459,00",
+    "yearText": "21/21",
+    "mileageText": "28.744",
+    "locationText": null,
+    "anoFabricacao": 2021,
+    "anoModelo": 2021,
+    "quilometragemNumero": 28744,
+    "quilometragemTexto": "28.744",
+    "cor": "branco",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2ee/6893442ee0f0b805773457.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2aa/6893442aacc47293243056.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/31b/68934431bf661062550947.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2cb/6893442cbfc4e686617260.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2d2/6893442d2e43d213905593.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2b7/6893442b723e6098154766.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2ff/6893442ff09fa130644673.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2be/6893442be9207398097420.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/31b/68934431bf676967992571.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/689/344/2f6/6893442f6898d816635968.jpg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN ADV. SPORTS ES/DCT"
+      }
+    ]
+  },
+  {
+    "name": "HONDA CRF 1100L AFRICA TWIN/DCT",
+    "priceText": "R$ 92.990,00",
+    "yearText": "24/24",
+    "mileageText": "17.748",
+    "locationText": null,
+    "anoFabricacao": 2024,
+    "anoModelo": 2024,
+    "quilometragemNumero": 17748,
+    "quilometragemTexto": "17.748",
+    "cor": "branco",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/21a/690b6821a9194566753795.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/242/690b6824212d9925004619.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/22a/690b6822a18a1131482879.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/22a/690b6822a6645736716070.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/24c/690b6824ccbc9223879423.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/236/690b68236c4b6483453170.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/242/690b682429456508152912.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/236/690b682361789829054678.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/690/b68/24d/690b6824d48c2061028389.jpeg",
+        "alt": "HONDA-CRF-CRF 1100L AFRICA TWIN/DCT"
+      }
+    ]
+  },
+  {
+    "name": "HONDA GOLD WING TOUR 1800",
+    "priceText": "R$ 169.900,00",
+    "yearText": "19/19",
+    "mileageText": "89.117",
+    "locationText": null,
+    "anoFabricacao": 2019,
+    "anoModelo": 2019,
+    "quilometragemNumero": 89117,
+    "quilometragemTexto": "89.117",
+    "cor": "vermelho",
+    "images": [
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a30/c0b/680a30c0b4674981735146.jpg",
+        "alt": "HONDA-GOLD-GOLD WING TOUR 1800"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a30/c23/680a30c23b8e2127803717.jpg",
+        "alt": "HONDA-GOLD-GOLD WING TOUR 1800"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a30/c09/680a30c09d363686341991.jpg",
+        "alt": "HONDA-GOLD-GOLD WING TOUR 1800"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a30/c34/680a30c34f114776299804.jpg",
+        "alt": "HONDA-GOLD-GOLD WING TOUR 1800"
+      },
+      {
+        "url": "https://alpes-hub.s3.amazonaws.com/uploads/public/680/a30/c24/680a30c2446d9796357391.jpg",
+        "alt": "HONDA-GOLD-GOLD WING TOUR 1800"
+      }
+    ]
+  }
+]

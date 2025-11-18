@@ -11,6 +11,9 @@ export const MotosSeminovas: CollectionConfig = {
         useAsTitle: "nome",
         defaultColumns: ["nome", "placa", "preco", "local", "ativo"],
         group: "Catálogo",
+        components: {
+            beforeList: ["/collections/components/SeminovasImportButton#SeminovasImportButton"],
+        },
     },
     access: {
         read: () => true,
@@ -280,7 +283,6 @@ export const MotosSeminovas: CollectionConfig = {
             label: "Imagem Principal",
             type: "upload",
             relationTo: "midia",
-            required: true,
             admin: {
                 description: "Imagem principal da moto exibida nas listagens e cards",
             },
