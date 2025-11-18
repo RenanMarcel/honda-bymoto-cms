@@ -1,5 +1,5 @@
 import React from "react";
-import "./globals.css";
+import "@/styles/global.css";
 
 export const metadata = {
     title: "Honda By Moto CMS",
