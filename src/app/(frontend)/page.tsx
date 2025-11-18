@@ -10,7 +10,7 @@ export default async function HomePage() {
     const { user } = await payload.auth({ headers });
 
     return (
-        <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-background to-muted px-4">
+        <div className="flex min-h-screen items-center justify-center bg-linear-to-b from-background to-muted px-4">
             <div className="w-full max-w-xl rounded-3xl border bg-card/80 p-8 text-center shadow-lg backdrop-blur-sm sm:p-10">
                 <div className="flex flex-col items-center gap-6">
                     <Image

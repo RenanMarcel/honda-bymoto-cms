@@ -148,7 +148,7 @@ async function fazerUploadImagem(imagem: SeminovaScrapedImage, nome: string): Pr
         },
         filePath: tempFilePath,
     })) as Midia;
-    await fs.unlink(tempFilePath).catch(() => undefined);
+    await fs.unlink(tempFilePath).catch((_erro: unknown): void => undefined);
     return midia.id;
 }
 
