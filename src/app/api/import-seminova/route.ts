@@ -3,6 +3,9 @@ import { NextResponse } from "next/server";
 import { getPayload } from "payload";
 import config from "@payload-config";
 import type { DadosInstitucionai, Midia, MotosSeminova } from "@/payload-types";
+import { writeFile, unlink } from "node:fs/promises";
+import { join } from "node:path";
+import { tmpdir } from "node:os";
 
 type SeminovaScrapedImage = {
     readonly url: string;
@@ -159,7 +162,9 @@ function extractImagesFromHtml(html: string, baseUrl: string): SeminovaScrapedIm
             lowerSrc.includes("instagram") ||
             lowerSrc.includes("facebook") ||
             lowerSrc.includes("youtube") ||
-            lowerSrc.includes("/themes/theme-by-moto-honda/")
+            lowerSrc.includes("/themes/theme-by-moto-honda/") ||
+            lowerSrc.endsWith(".svg") ||
+            lowerSrc.includes(".svg?")
         ) {
             continue;
         }
@@ -208,26 +213,48 @@ async function fazerUploadImagem(
     nome: string,
     indice: number,
 ): Promise<number | null> {
+    let tempFilePath: string | null = null;
     try {
         const response: Response = await fetch(imagem.url);
         if (!response.ok) {
             return null;
         }
-        const contentType: string = response.headers.get("content-type") ?? "image/jpeg";
+        const contentType: string = response.headers.get("content-type") ?? "";
+        const imagensBitmapPermitidas: readonly string[] = [
+            "image/jpeg",
+            "image/jpg",
+            "image/png",
+            "image/webp",
+            "image/avif",
+            "image/gif",
+        ];
+        if (!imagensBitmapPermitidas.some((tipo: string) => contentType.includes(tipo))) {
+            return null;
+        }
         const arrayBuffer: ArrayBuffer = await response.arrayBuffer();
+        const buffer: Buffer = Buffer.from(arrayBuffer);
         const filename: string = extrairNomeArquivoDaUrl(imagem.url);
-        const file: File = new File([arrayBuffer], filename, { type: contentType });
+        tempFilePath = join(tmpdir(), `seminova-${Date.now()}-${filename}`);
+        await writeFile(tempFilePath, buffer);
         const alt: string = obterAltParaImagem(nome, imagem, indice);
         const midia: Midia = (await payload.create({
             collection: "midia",
             data: {
                 alt,
             },
-            file,
+            filePath: tempFilePath,
         })) as Midia;
         return midia.id as number;
     } catch {
         return null;
+    } finally {
+        if (tempFilePath) {
+            try {
+                await unlink(tempFilePath);
+            } catch {
+                // Ignore cleanup errors
+            }
+        }
     }
 }
 
